@@ -44,4 +44,7 @@ Les règles globales d’Adem s’appliquent intégralement. Ce fichier ajoute l
 - Ajouter les issues et PRs au Project `Scrum Board`.
 - Assigner les issues et PRs à `AdamDjo`.
 - Les PRs de feature et de fix ciblent `develop` et contiennent `Closes #<n>`.
+- Les PRs vers `develop` sont fusionnées en squash afin de conserver un historique linéaire.
+- Les PRs de release ou hotfix vers `main` sont fusionnées par merge commit, sans squash, notamment via `/release`.
+- La commande de merge reste exécutée exclusivement par Adem ; l’agent prépare et vérifie la PR puis s’arrête.
 - Seul Adem fusionne les PRs.

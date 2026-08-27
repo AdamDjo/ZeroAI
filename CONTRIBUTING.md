@@ -12,7 +12,9 @@
 4. Pousser la branche et ouvrir une PR vers `develop`, ou vers `main` pour une release ou un hotfix.
 5. Ajouter `Closes #<n>` au corps de la PR.
 6. Vérifier les labels de type, domaine, priorité et phase, le milestone, l’assignation et le Project.
-7. Attendre la CI, puis laisser Adem effectuer le merge manuellement.
+7. Attendre la CI, puis laisser Adem effectuer le merge manuellement :
+   - squash pour une PR vers `develop` ;
+   - merge commit sans squash pour une release ou un hotfix vers `main`, notamment via `/release`.
 
 Les commits directs sur `main` et `develop`, les merges automatisés et les signatures `Co-Authored-By` ajoutées par un agent sont interdits.
 

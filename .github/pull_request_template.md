@@ -20,6 +20,7 @@ Closes #
 ## Métadonnées
 
 - [ ] Branche cible correcte (`develop`, ou `main` pour hotfix/release)
+- [ ] Méthode prévue correcte : squash vers `develop`, merge commit vers `main`
 - [ ] Labels `type:*`, `domain:*`, `priority:*` et `phase:*`
 - [ ] Milestone cohérent
 - [ ] Assignation à Adem
