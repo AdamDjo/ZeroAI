@@ -1,7 +1,8 @@
-import { Menu, PawPrint, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { NAVIGATION_ITEMS } from '@/data/landing-content';
 import { BrandLogo } from './ui/BrandLogo';
+import { PixelIcon } from './ui/PixelIcon';
 
 interface NavbarProps {
   onAdoptClick: () => void;
@@ -36,7 +37,7 @@ export function Navbar({ onAdoptClick }: NavbarProps) {
 
         <button className="button-primary desktop-cta" onClick={onAdoptClick} type="button">
           Adopter Zéro
-          <PawPrint aria-hidden="true" size={18} />
+          <PixelIcon className="button-pixel-icon" name="paw" />
         </button>
 
         <button
@@ -65,7 +66,7 @@ export function Navbar({ onAdoptClick }: NavbarProps) {
             ))}
             <button className="button-primary mt-3 justify-center" onClick={handleAdoptClick} type="button">
               Adopter Zéro
-              <PawPrint aria-hidden="true" size={18} />
+              <PixelIcon className="button-pixel-icon" name="paw" />
             </button>
           </div>
         </nav>

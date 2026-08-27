@@ -1,5 +1,5 @@
-import { PawPrint } from 'lucide-react';
 import { ZERO_PEEKING_CTA_URL } from '@/assets/zero-assets';
+import { PixelIcon } from './ui/PixelIcon';
 
 interface FinalCTAProps {
   onAdoptClick: () => void;
@@ -14,7 +14,7 @@ export function FinalCTA({ onAdoptClick }: FinalCTAProps) {
           <p>Adoptez Zéro aujourd'hui et créez un lien unique qui durera.</p>
           <button className="button-primary mt-6" onClick={onAdoptClick} type="button">
             Adopter Zéro
-            <PawPrint aria-hidden="true" size={18} />
+            <PixelIcon className="button-pixel-icon" name="paw" />
           </button>
           <div className="cta-scan" aria-label="QR code de préinscription">
             <span className="qr-pattern" aria-hidden="true" />

@@ -1,5 +1,5 @@
 import { FEATURES } from '@/data/landing-content';
-import { PixelIcon, type PixelIconName } from './ui/PixelIcon';
+import { PixelIcon } from './ui/PixelIcon';
 
 export function FeatureStrip() {
   return (
@@ -9,7 +9,7 @@ export function FeatureStrip() {
         {FEATURES.map(({ description, pixelIcon, title }) => (
           <article className="feature-strip-item" key={title}>
             <span className="feature-icon">
-              <PixelIcon name={pixelIcon as PixelIconName} />
+              <PixelIcon name={pixelIcon} />
             </span>
             <div>
               <h3 className="font-bold">{title}</h3>

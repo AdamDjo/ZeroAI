@@ -1,9 +1,10 @@
-import { Heart, PawPrint, Play } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { ZERO_HERO_ISLAND_URL } from '@/assets/zero-assets';
 import { HERO_PROMISES } from '@/data/landing-content';
 import { PhoneMockup } from './PhoneMockup';
-import { PixelIcon, type PixelIconName } from './ui/PixelIcon';
+import { PixelIcon } from './ui/PixelIcon';
+import { StoreBadge } from './ui/StoreBadge';
 
 interface HeroProps {
   onAdoptClick: () => void;
@@ -43,7 +44,7 @@ export function Hero({ onAdoptClick, onDemoClick }: HeroProps) {
           {HERO_PROMISES.map(({ pixelIcon, title }) => (
             <li className="flex items-center gap-3 text-sm font-semibold sm:text-base" key={title}>
               <span className="promise-icon">
-                <PixelIcon name={pixelIcon as PixelIconName} />
+                <PixelIcon name={pixelIcon} />
               </span>
               {title}
             </li>
@@ -53,19 +54,19 @@ export function Hero({ onAdoptClick, onDemoClick }: HeroProps) {
         <div className="mt-8 flex flex-wrap gap-3">
           <button className="button-primary" onClick={onAdoptClick} type="button">
             Adopter Zéro
-            <PawPrint aria-hidden="true" size={18} />
+            <PixelIcon className="button-pixel-icon" name="paw" />
           </button>
           <button className="button-secondary" onClick={onDemoClick} type="button">
             Voir la démo
-            <Play aria-hidden="true" fill="currentColor" size={15} />
+            <PixelIcon className="button-pixel-icon button-play-icon" name="play" />
           </button>
         </div>
 
         <div className="mt-6">
           <p className="mb-2 text-xs font-semibold text-muted">Bientôt disponible sur</p>
           <div className="flex flex-wrap gap-2" aria-label="Plateformes prévues">
-            <span className="store-badge">App Store</span>
-            <span className="store-badge">Google Play</span>
+            <StoreBadge platform="apple" />
+            <StoreBadge platform="google" />
           </div>
         </div>
       </div>

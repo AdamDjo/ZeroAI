@@ -1,18 +1,18 @@
-import { ArrowRight, Backpack, Glasses, Shirt, Sparkles } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 import { ZERO_STREETWEAR_URL } from '@/assets/zero-assets';
 import { CUSTOMIZATION_ITEMS } from '@/data/landing-content';
-import { PixelIcon, type PixelIconName } from './ui/PixelIcon';
+import { PixelIcon } from './ui/PixelIcon';
 
 interface CustomizationSectionProps {
   onShopClick: () => void;
 }
 
 const ACCESSORIES = [
-  { icon: Glasses, label: 'Lunettes' },
-  { icon: Shirt, label: 'Sweat' },
-  { icon: Backpack, label: 'Sac' },
-  { icon: Sparkles, label: 'Aura' },
+  { icon: 'glasses', label: 'Lunettes' },
+  { icon: 'shirt', label: 'Sweat' },
+  { icon: 'bag', label: 'Sac' },
+  { icon: 'sparkle', label: 'Aura' },
 ] as const;
 
 export function CustomizationSection({ onShopClick }: CustomizationSectionProps) {
@@ -32,7 +32,7 @@ export function CustomizationSection({ onShopClick }: CustomizationSectionProps)
           <ul className="mt-7 grid gap-4">
             {CUSTOMIZATION_ITEMS.map(({ pixelIcon, title }) => (
               <li className="flex items-center gap-3 font-semibold" key={title}>
-                <span className="promise-icon"><PixelIcon name={pixelIcon as PixelIconName} /></span>
+                <span className="promise-icon"><PixelIcon name={pixelIcon} /></span>
                 {title}
               </li>
             ))}
@@ -45,7 +45,7 @@ export function CustomizationSection({ onShopClick }: CustomizationSectionProps)
 
         <div className="customization-stage">
           <div className="accessory-list" aria-label="Aperçu des accessoires">
-            {ACCESSORIES.map(({ icon: Icon, label }) => (
+            {ACCESSORIES.map(({ icon, label }) => (
               <button
                 aria-pressed={selectedAccessory === label}
                 className="accessory-button"
@@ -53,7 +53,7 @@ export function CustomizationSection({ onShopClick }: CustomizationSectionProps)
                 onClick={() => setSelectedAccessory(label)}
                 type="button"
               >
-                <Icon aria-hidden="true" size={23} />
+                <PixelIcon className="accessory-pixel-icon" name={icon} />
                 <span>{label}</span>
               </button>
             ))}

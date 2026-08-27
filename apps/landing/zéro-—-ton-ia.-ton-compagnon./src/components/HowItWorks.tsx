@@ -1,7 +1,8 @@
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useEffect, useRef } from 'react';
 import { JOURNEY_STEPS } from '@/data/landing-content';
 import { PhoneMockup } from './PhoneMockup';
+import { PixelIcon } from './ui/PixelIcon';
 
 interface HowItWorksProps {
   onDemoClick: () => void;
@@ -102,7 +103,7 @@ export function HowItWorks({ onDemoClick }: HowItWorksProps) {
             </ol>
             <button className="button-primary mt-8" onClick={onDemoClick} type="button">
               Découvrir la démo
-              <Play aria-hidden="true" fill="currentColor" size={15} />
+              <PixelIcon className="button-pixel-icon button-play-icon" name="play" />
             </button>
           </div>
 
