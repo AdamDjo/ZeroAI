@@ -1,0 +1,39 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-stand-up-v2",
+  "sheet": "chimi-stand-up-v2-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "durationsMs": [
+    320,
+    120,
+    160,
+    560,
+    160,
+    180,
+    320
+  ],
+  "motion": [
+    "sit",
+    "anticipation",
+    "rise",
+    "stand",
+    "soft-settle",
+    "return",
+    "sit"
+  ],
+  "loop": false,
+  "validation": "validation-report.json"
+}

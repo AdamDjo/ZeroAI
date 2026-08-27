@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "pet_id": "chimi",
+  "workflow": "official-hatch-pet",
+  "run_dir": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi",
+  "spritesheet": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/final/spritesheet.webp",
+  "validation": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/final/validation.json",
+  "contact_sheet": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/qa/contact-sheet.png",
+  "review": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/qa/review.json",
+  "preview_dir": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/qa/previews",
+  "package": "/Users/adembenmessaoud/dev/MewMew AI/assets/v2/chimi/package/chimi",
+  "visual_qa": {
+    "status": "pass",
+    "note": "Les neuf animations conservent l’identité, la palette, la silhouette, le cadrage et la transparence de Chimi, sans halo magenta visible ni objet détaché dans running, avec des mouvements et boucles lisibles."
+  }
+}

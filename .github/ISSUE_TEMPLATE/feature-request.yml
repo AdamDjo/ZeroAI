@@ -1,0 +1,45 @@
+name: Fonctionnalité
+description: Proposer une évolution produit, technique ou visuelle.
+title: "feat: "
+labels:
+  - type:feature
+  - priority:P2
+assignees:
+  - AdamDjo
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Décrire le besoin utilisateur ou technique, sans imposer la solution.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Résultat attendu
+      description: Quel résultat mesurable indiquera que le besoin est couvert ?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Périmètre
+      description: Préciser ce qui est inclus et explicitement hors périmètre.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critères d’acceptation
+      placeholder: |
+        - [ ] Critère 1
+        - [ ] Critère 2
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Plan de test proposé
+    validations:
+      required: true

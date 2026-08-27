@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "stage": "baby",
+  "petId": "zero-baby",
+  "displayName": "Zéro — Bébé",
+  "status": "ready-for-app",
+  "canonicalMaster": "ZERO_BABY_MASTER_V1.png",
+  "sourceReference": "ZERO_BABY_SOURCE_REFERENCE.png",
+  "morphology": {
+    "headBodyRatio": "huge head, extremely small low bean body",
+    "pose": "belly-crouched infant",
+    "limbs": "exactly four anatomical limbs; coherent natural occlusion allowed",
+    "signatureFeatures": ["black visor", "lime collar core", "attached lime tail orb"]
+  },
+  "appAtlas": {
+    "file": "spritesheet.webp",
+    "columns": 8,
+    "rows": 15,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "animations": 13,
+    "lookDirections": 16
+  },
+  "qa": {
+    "technicalValidation": "pass",
+    "directionalBlindReview": "accepted-by-user-with-documented-waiver",
+    "knownDirectionExceptions": ["000 degree may read as frontal", "270 degree may read as screen-right"],
+    "runningAnatomyRepair": "pass"
+  }
+}

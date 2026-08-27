@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-08-26T12:23:03.523434+00:00",
+  "run_dir": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2",
+  "primary_generation_skill": "$imagegen",
+  "jobs": [
+    {
+      "id": "base",
+      "kind": "base-pet",
+      "status": "complete",
+      "prompt_file": "prompts/base-pet.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        }
+      ],
+      "output_path": "decoded/base.png",
+      "depends_on": [],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e06-63b6-7873-9327-f41a7de8cfb8/exec-24c86e00-af7d-4602-99d5-808525c47c81.png",
+      "completed_at": "2026-08-26T12:27:06Z",
+      "qa_note": "Approved low infant morphology with coherent crouched occlusion; no duplicated limb."
+    },
+    {
+      "id": "idle",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/idle.md",
+      "retry_prompt_file": "prompts/row-retries/idle.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/idle.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/idle.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e0a-59bd-7db0-9693-168d74adbebc/exec-067972f4-d7f0-4d24-b954-267c003712c1.png",
+      "completed_at": "2026-08-26T12:29:34Z",
+      "qa_note": "Six-frame baby idle passed stable-slots QA; zero edge pixels; crouched occlusion preserved."
+    },
+    {
+      "id": "running-right",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running-right.md",
+      "retry_prompt_file": "prompts/row-retries/running-right.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-right.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running-right.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "no deterministic derivation is configured for this state"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e0c-4070-7d10-b97c-cf073aaa3f96/exec-6861d83e-58b7-4ccd-a731-6d611c153d2a.png",
+      "completed_at": "2026-08-26T12:31:17Z",
+      "qa_note": "Eight-frame screen-right baby gait passed component extraction with zero edge pixels."
+    },
+    {
+      "id": "running-left",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running-left.md",
+      "retry_prompt_file": "prompts/row-retries/running-left.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running-left.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "decoded/running-right.png",
+          "role": "rightward gait reference for leftward row decision"
+        }
+      ],
+      "output_path": "decoded/running-left.png",
+      "depends_on": [
+        "base",
+        "running-right"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base",
+        "running-right"
+      ],
+      "derivation_policy": {
+        "may_derive": true,
+        "may_derive_from": "running-right",
+        "derivation": "framewise-horizontal-mirror-preserving-order",
+        "requires_explicit_approval": true,
+        "fallback_generation_skill": "$imagegen"
+      },
+      "mirror_policy": {
+        "may_derive": true,
+        "may_derive_from": "running-right",
+        "derivation": "framewise-horizontal-mirror-preserving-order",
+        "requires_explicit_approval": true,
+        "fallback_generation_skill": "$imagegen"
+      },
+      "source_path": "decoded/running-right.png",
+      "derived_from": "running-right",
+      "completed_at": "2026-08-26T13:42:08.872162+00:00",
+      "metadata": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "mirror_decision": {
+        "approved": true,
+        "approved_at": "2026-08-26T13:42:08.872162+00:00",
+        "note": "Baby Z\u00e9ro is bilaterally symmetric; full-row mirror preserves four-limb anatomy, visor, centered core, and correctly swaps the attached tail side.",
+        "transform": "framewise-horizontal-mirror-preserving-order"
+      }
+    },
+    {
+      "id": "waving",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/waving.md",
+      "retry_prompt_file": "prompts/row-retries/waving.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waving.png",
+          "role": "layout guide for 4 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waving.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e0e-04a5-7643-9196-a759752d38c0/exec-4edee0f8-df7b-4d90-b2ce-32f7ea269c32.png",
+      "completed_at": "2026-08-26T12:33:50Z",
+      "qa_note": "Four-frame baby wave passed component QA; raised paw replaces resting paw."
+    },
+    {
+      "id": "jumping",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/jumping.md",
+      "retry_prompt_file": "prompts/row-retries/jumping.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/jumping.png",
+          "role": "layout guide for 5 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/jumping.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e10-2b6a-7e80-86c4-81592fbe8583/exec-28d36991-06fe-4fb1-a5ec-f50c8dc6f37d.png",
+      "completed_at": "2026-08-26T12:36:14Z",
+      "qa_note": "Five-frame baby hop passed component QA with no edge or anatomy errors."
+    },
+    {
+      "id": "failed",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/failed.md",
+      "retry_prompt_file": "prompts/row-retries/failed.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/failed.png",
+          "role": "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/failed.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e12-549d-71b1-9415-871750977434/exec-7afaab43-8daf-47c3-a834-868afa98f230.png",
+      "completed_at": "2026-08-26T12:39:20Z",
+      "qa_note": "Eight-frame subdued baby failure passed component QA with no forbidden effects."
+    },
+    {
+      "id": "waiting",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/waiting.md",
+      "retry_prompt_file": "prompts/row-retries/waiting.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/waiting.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/waiting.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e15-2d61-7330-8194-7e0a25bb2bca/exec-bdd01b2b-5b3b-41ac-b5c6-b03bbc6e38af.png",
+      "completed_at": "2026-08-26T12:47:35Z",
+      "qa_note": "Six-frame baby waiting state passed component QA without detached symbols."
+    },
+    {
+      "id": "running",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running.md",
+      "retry_prompt_file": "prompts/row-retries/running.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/running.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/running.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e1c-c3cb-7970-a751-ec58bf32c46e/exec-ed9284f9-771e-4fb5-aac7-742eeeedf5a7.png",
+      "completed_at": "2026-08-26T12:50:09Z",
+      "qa_note": "Six-frame non-directional processing state passed component QA; no literal running or props."
+    },
+    {
+      "id": "review",
+      "kind": "row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/review.md",
+      "retry_prompt_file": "prompts/row-retries/review.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/review.png",
+          "role": "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        }
+      ],
+      "output_path": "decoded/review.png",
+      "depends_on": [
+        "base"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "parallelizable_after": [
+        "base"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "state requires its own generated animation semantics"
+      },
+      "mirror_policy": {},
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e1f-2c25-71c2-af15-835cb302e193/exec-90e25a6f-cac4-49f1-be2e-13ff8e21d5f2.png",
+      "completed_at": "2026-08-26T12:52:30Z",
+      "qa_note": "Six-frame baby review passed component QA without props or anatomy errors."
+    },
+    {
+      "id": "look-cardinals",
+      "kind": "look-cardinal-strip",
+      "status": "complete",
+      "prompt_file": "prompts/look-cardinals.md",
+      "repair_prompt_files": {
+        "000": "prompts/look-anchor-repairs/000.md",
+        "090": "prompts/look-anchor-repairs/090.md",
+        "180": "prompts/look-anchor-repairs/180.md",
+        "270": "prompts/look-anchor-repairs/270.md"
+      },
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-cardinals.png",
+          "role": "layout guide for four cardinal slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        }
+      ],
+      "output_path": "decoded/look-cardinals.png",
+      "extracted_output_paths": [
+        "decoded/look-anchors/000.png",
+        "decoded/look-anchors/090.png",
+        "decoded/look-anchors/180.png",
+        "decoded/look-anchors/270.png"
+      ],
+      "approved_strip_path": "decoded/look-anchors-approved.png",
+      "depends_on": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "090",
+        "180",
+        "270"
+      ],
+      "packaging_eligible": false,
+      "parallelizable_after": [
+        "idle",
+        "running-right",
+        "running-left",
+        "waving",
+        "jumping",
+        "failed",
+        "waiting",
+        "running",
+        "review"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "cardinal directions require grounded pet-specific generation"
+      },
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e24-a5f6-7c70-a581-4f296287d69d/exec-e482701b-2617-466c-8f92-133cd63840df.png",
+      "completed_at": "2026-08-26T12:58:34Z",
+      "qa_note": "000 up, 090 screen-right, 180 down and 270 screen-left passed landmark and zero-edge checks."
+    },
+    {
+      "id": "look-row-9",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/look-row-9.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-9.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-row-9.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        }
+      ],
+      "output_path": "decoded/look-row-9.png",
+      "depends_on": [
+        "look-cardinals"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "000",
+        "022.5",
+        "045",
+        "067.5",
+        "090",
+        "112.5",
+        "135",
+        "157.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true,
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e27-162e-7593-bafc-8ece86c192a1/exec-c350d330-c056-4535-afe2-2710b7f952ca.png",
+      "completed_at": "2026-08-26T13:08:23Z",
+      "qa_note": "All 000\u2013157.5 semantics and continuity passed after complete-row resynthesis; no clipping or reversal."
+    },
+    {
+      "id": "look-row-10",
+      "kind": "look-row-strip",
+      "status": "complete",
+      "prompt_file": "prompts/rows/look-row-10.md",
+      "retry_prompt_file": "prompts/row-retries/look-row-10.md",
+      "input_images": [
+        {
+          "path": "references/reference-01.png",
+          "role": "pet reference"
+        },
+        {
+          "path": "references/layout-guides/look-row-10.png",
+          "role": "layout guide for 8 direction slots; use for spacing only, do not copy guide lines"
+        },
+        {
+          "path": "references/canonical-base.png",
+          "role": "canonical identity reference"
+        },
+        {
+          "path": "qa/contact-sheet.png",
+          "role": "approved standard-row identity, scale, and baseline reference"
+        },
+        {
+          "path": "decoded/look-anchors-approved.png",
+          "role": "approved cardinal reference strip in order 000 up, 090 screen-right, 180 down, 270 screen-left; interpolate intermediate directions evenly"
+        },
+        {
+          "path": "decoded/look-row-9.png",
+          "role": "completed first half of the clockwise look loop for row 10 continuity"
+        }
+      ],
+      "output_path": "decoded/look-row-10.png",
+      "depends_on": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "generation_skill": "$imagegen",
+      "requires_grounded_generation": true,
+      "allow_prompt_only_generation": false,
+      "identity_reference_paths": [
+        "references/canonical-base.png"
+      ],
+      "look_mechanics_file": "qa/look-mechanics.md",
+      "directions": [
+        "180",
+        "202.5",
+        "225",
+        "247.5",
+        "270",
+        "292.5",
+        "315",
+        "337.5"
+      ],
+      "parallelizable_after": [
+        "look-cardinals",
+        "look-row-9"
+      ],
+      "derivation_policy": {
+        "may_derive": false,
+        "reason": "look directions require grounded pet-specific generation"
+      },
+      "coherent_synthesis_required": true,
+      "individual_cell_packaging_allowed": false,
+      "packaging_eligible": true,
+      "source_path": "/Users/adembenmessaoud/.codex/generated_images/01a03e30-2eb0-7b33-90ba-e44a3a292391/exec-bfd770c5-df7f-4139-9d0d-5ce281db505e.png",
+      "completed_at": "2026-08-26T13:13:46Z",
+      "qa_note": "180\u2013337.5 and full 16-pose loop passed labeled semantic and visual continuity review; metric concerns retained as warnings."
+    }
+  ]
+}

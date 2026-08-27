@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for Codex pet Zéro.
+
+Pet identity: ZERO_MASTER_V1, identical compact seated cream AI cat with oversized rounded head, exactly four anatomical limbs, short paws, black triangular ears with lime digital details, large black face visor, lime pixel eyes and tiny lime pixel mouth, black technology collar with centered circular lime AI core, black curved tail ending in a bright lime orb. Preserve the exact approved proportions, silhouette, palette, visor, collar core, and tail-orb side. No redesign, accessories, crown, text, detached effects, or extra limbs..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `pixel`: Pixel-art-adjacent digital mascot with a chunky silhouette, simple dark outline, limited palette, flat cel shading, and visible stepped edges. User style notes: Exact approved Zéro pixel-art identity; clean hard 8-bit/16-bit pixel edges; warm cream, charcoal, lime; tiny readable game mascot; no smooth rendering or realistic fur..
+
+
+Place a single centered pose on a perfectly flat pure user-selected #00FFFF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #00FFFF and close colors out of the pet, props, highlights, and effects.

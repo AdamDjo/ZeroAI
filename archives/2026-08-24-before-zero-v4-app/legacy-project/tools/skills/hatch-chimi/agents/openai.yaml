@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hatch Chimi"
+  short_description: "Crée et valide les animations pixel-art de Chimi"
+  default_prompt: "Utilise $hatch-chimi pour créer un clip cohérent de Chimi et exporter ses assets validés."

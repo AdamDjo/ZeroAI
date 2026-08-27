@@ -1,0 +1,47 @@
+name: Bug
+description: Signaler un comportement incorrect ou une régression.
+title: "fix: "
+labels:
+  - type:bug
+  - priority:P2
+assignees:
+  - AdamDjo
+body:
+  - type: markdown
+    attributes:
+      value: Merci de fournir un cas reproductible et le résultat attendu.
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte
+      description: Où et dans quelles conditions le problème apparaît-il ?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. Ouvrir…
+        2. Effectuer…
+        3. Observer…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Résultat observé
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Plan de test proposé
+    validations:
+      required: true

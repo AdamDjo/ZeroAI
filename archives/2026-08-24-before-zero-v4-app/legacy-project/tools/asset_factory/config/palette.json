@@ -1,0 +1,9 @@
+{
+  "_source": "docs/vault/02-identite-visuelle/Palette-Officielle.md",
+  "_rule": "Exactement 5 couleurs. Les glows varient l'alpha du lime, jamais une 6e teinte.",
+  "cream": "#FFF7EA",
+  "ink": "#1A1A1A",
+  "lime": "#A6E22E",
+  "coral": "#FFBC7A",
+  "mist": "#EAF3E1"
+}

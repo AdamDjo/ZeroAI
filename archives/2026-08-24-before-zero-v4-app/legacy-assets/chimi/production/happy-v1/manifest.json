@@ -1,0 +1,36 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-happy-v1",
+  "sheet": "chimi-happy-v1-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "durationsMs": [
+    220,
+    120,
+    140,
+    320,
+    160,
+    260
+  ],
+  "motion": [
+    "neutral",
+    "anticipation",
+    "jump",
+    "happy-peak",
+    "landing",
+    "neutral"
+  ],
+  "loop": false,
+  "validation": "validation-report.json"
+}

@@ -1,0 +1,66 @@
+name: Repository integrity
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-integrity:
+    name: Repository integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate tracked files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+
+          maximum_size = 50 * 1024 * 1024
+          raw_files = subprocess.check_output(["git", "ls-files", "-z"])
+          tracked_files = [Path(path) for path in raw_files.decode().split("\0") if path]
+          errors = []
+
+          for path in tracked_files:
+              parts = set(path.parts)
+              name = path.name
+
+              if name == ".DS_Store":
+                  errors.append(f"Fichier macOS suivi : {path}")
+              if name == ".env" or (name.startswith(".env.") and name != ".env.example"):
+                  errors.append(f"Fichier d’environnement suivi : {path}")
+              if name.endswith(".key"):
+                  errors.append(f"Clé potentiellement secrète suivie : {path}")
+              if ".venv" in parts or "__pycache__" in parts or name.endswith(".pyc"):
+                  errors.append(f"Cache ou environnement Python suivi : {path}")
+              if path.stat().st_size > maximum_size:
+                  errors.append(f"Fichier supérieur à 50 Mio : {path}")
+
+              if path.suffix == ".json":
+                  try:
+                      with path.open(encoding="utf-8") as handle:
+                          json.load(handle)
+                  except (UnicodeDecodeError, json.JSONDecodeError) as error:
+                      errors.append(f"JSON invalide : {path} ({error})")
+
+          if errors:
+              print("\n".join(f"- {error}" for error in errors), file=sys.stderr)
+              raise SystemExit(1)
+
+          print(f"{len(tracked_files)} fichiers suivis validés.")
+          PY

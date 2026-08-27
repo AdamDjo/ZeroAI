@@ -1,0 +1,33 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-idle-breathe-v2",
+  "sheet": "chimi-idle-breathe-v2-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "durationsMs": [
+    800,
+    240,
+    520,
+    240,
+    800
+  ],
+  "motion": [
+    "neutral",
+    "inhale",
+    "hold",
+    "exhale",
+    "neutral"
+  ],
+  "loop": true,
+  "validation": "validation-report.json"
+}

@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames",
+  "states": [
+    "waiting"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19397,
+          "bbox": [
+            5,
+            32,
+            187,
+            176
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 187
+        },
+        {
+          "index": 1,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20339,
+          "bbox": [
+            5,
+            27,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        },
+        {
+          "index": 2,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20461,
+          "bbox": [
+            5,
+            30,
+            187,
+            178
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 3,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17590,
+          "bbox": [
+            5,
+            42,
+            187,
+            166
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 228
+        },
+        {
+          "index": 4,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19499,
+          "bbox": [
+            5,
+            32,
+            187,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 201
+        },
+        {
+          "index": 5,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/waiting/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19292,
+          "bbox": [
+            5,
+            33,
+            187,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        }
+      ]
+    }
+  ]
+}

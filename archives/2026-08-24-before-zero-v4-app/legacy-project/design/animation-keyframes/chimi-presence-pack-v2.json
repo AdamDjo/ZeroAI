@@ -1,0 +1,35 @@
+{
+  "master": "CHIMI_MASTER_V1",
+  "technique": "full-pose-imagegen-with-deterministic-validation",
+  "movesRectangularBodyRegions": false,
+  "clips": {
+    "stand-up-v2": {
+      "frame-02.png": "soft anticipation from the validated sitting pose",
+      "frame-03.png": "natural rise with the paws held on the baseline",
+      "frame-04.png": "generated full standing pose with rounded paws and relaxed shoulders",
+      "frame-05.png": "reverse through the validated rise pose for a symmetric soft settle"
+    },
+    "thinking-v2": {
+      "frame-02.png": "notice with an upward glance",
+      "frame-03.png": "focused gaze and collar response",
+      "frame-04.png": "energy pulse without detached particles",
+      "frame-05.png": "single-ear listening beat",
+      "frame-06.png": "secondary pulse before a neutral settle"
+    },
+    "special-idle-yawn-v1": {
+      "frame-02.png": "drowsy eyelid anticipation",
+      "frame-03.png": "closed relaxed eyes",
+      "frame-04.png": "small mouth opening",
+      "frame-05.png": "restrained complete yawn pose",
+      "frame-06.png": "mouth release",
+      "frame-07.png": "soft eyelid settle"
+    }
+  },
+  "invariants": [
+    "full 96x96 frame",
+    "five-color master palette",
+    "fixed baseline",
+    "stable component count",
+    "exact neutral endpoints"
+  ]
+}

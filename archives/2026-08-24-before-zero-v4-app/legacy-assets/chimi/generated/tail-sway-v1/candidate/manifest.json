@@ -1,0 +1,33 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-tail-sway-v1",
+  "sheet": "chimi-tail-sway-v1-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "durationsMs": [
+    180,
+    160,
+    170,
+    190,
+    220
+  ],
+  "motion": [
+    "neutral",
+    "arc",
+    "overshoot",
+    "settle",
+    "neutral"
+  ],
+  "loop": false,
+  "validation": "validation-report.json"
+}

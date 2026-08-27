@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-idle-breathe-v2",
+  "status": "failed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 5,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0,
+        "visage": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 0.87832,
+      "baselineDelta": 0,
+      "bboxDelta": 3,
+      "componentCount": 1,
+      "changesOutsideMutableRegions": 186,
+      "protectedChanges": {
+        "pattes": 208,
+        "visage": 183
+      },
+      "errors": [
+        "silhouette IoU 0.8783 < 0.94",
+        "bbox décalée de 3px (max 1)",
+        "silhouette coupée : 1 composantes au lieu de 2",
+        "186 pixels modifiés hors zones mutables",
+        "région pattes : 208 changements (max 0)",
+        "région visage : 183 changements (max 150)"
+      ]
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0,
+        "visage": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0,
+        "visage": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-05.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0,
+        "visage": 0
+      },
+      "errors": []
+    }
+  ],
+  "errors": [
+    "frame-02.png: silhouette IoU 0.8783 < 0.94",
+    "frame-02.png: bbox décalée de 3px (max 1)",
+    "frame-02.png: silhouette coupée : 1 composantes au lieu de 2",
+    "frame-02.png: 186 pixels modifiés hors zones mutables",
+    "frame-02.png: région pattes : 208 changements (max 0)",
+    "frame-02.png: région visage : 183 changements (max 150)",
+    "frame-02.png: jitter inter-frame de 3px (max 1).",
+    "frame-03.png: jitter inter-frame de 3px (max 1).",
+    "Clip trop statique : 2 poses distinctes, minimum 3."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "canonicalName": "ZERO_MASTER_V1",
+  "displayName": "Zéro",
+  "sourceOfTruth": "../references/reference-01.png",
+  "canonicalChromaReference": "../references/canonical-base.png",
+  "transparentMaster": "../final/ZERO_MASTER_V1.png",
+  "dimensions": {
+    "width": 1254,
+    "height": 1254
+  },
+  "mode": "RGBA",
+  "transparentRgbResiduePixels": 0,
+  "visualQa": {
+    "status": "pass",
+    "identityPreserved": true,
+    "exactlyFourLimbs": true,
+    "cyanFringe": false,
+    "signatureFeatures": [
+      "black face visor",
+      "lime collar core",
+      "lime tail orb"
+    ]
+  }
+}

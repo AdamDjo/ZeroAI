@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "atlas": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/final/spritesheet.webp",
+  "width": 1536,
+  "height": 3120,
+  "columns": 8,
+  "rows": 15,
+  "animations": 13,
+  "lookDirections": 16,
+  "usedCellErrors": [],
+  "emptyCellErrors": [],
+  "contactSheet": "contact-sheet.png",
+  "previews": [
+    {
+      "id": "idle",
+      "file": "idle.gif",
+      "frames": 6
+    },
+    {
+      "id": "running-right",
+      "file": "running-right.gif",
+      "frames": 8
+    },
+    {
+      "id": "running-left",
+      "file": "running-left.gif",
+      "frames": 8
+    },
+    {
+      "id": "waving",
+      "file": "waving.gif",
+      "frames": 4
+    },
+    {
+      "id": "jumping",
+      "file": "jumping.gif",
+      "frames": 5
+    },
+    {
+      "id": "failed",
+      "file": "failed.gif",
+      "frames": 8
+    },
+    {
+      "id": "waiting",
+      "file": "waiting.gif",
+      "frames": 6
+    },
+    {
+      "id": "running",
+      "file": "running.gif",
+      "frames": 6
+    },
+    {
+      "id": "review",
+      "file": "review.gif",
+      "frames": 6
+    },
+    {
+      "id": "sleeping",
+      "file": "sleeping.gif",
+      "frames": 6
+    },
+    {
+      "id": "happy",
+      "file": "happy.gif",
+      "frames": 6
+    },
+    {
+      "id": "petting-reaction",
+      "file": "petting-reaction.gif",
+      "frames": 6
+    },
+    {
+      "id": "eating-data",
+      "file": "eating-data.gif",
+      "frames": 6
+    }
+  ]
+}

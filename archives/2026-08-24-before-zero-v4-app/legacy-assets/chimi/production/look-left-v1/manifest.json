@@ -1,0 +1,27 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-look-left-v1",
+  "sheet": "chimi-look-left-v1-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2
+  ],
+  "durationsMs": [
+    110,
+    900,
+    180
+  ],
+  "motion": [
+    "anticipation",
+    "look-left",
+    "settle"
+  ],
+  "loop": false,
+  "validation": "validation-report.json"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "character": "Chimi V3",
+  "frameCount": 57,
+  "stateCount": 9,
+  "anatomyRule": "Exactement quatre membres par image. Lorsqu'une patte avant est levée, sa version posée au sol est absente.",
+  "repairedRows": [
+    "waving",
+    "waiting",
+    "running",
+    "running-left"
+  ],
+  "visualQa": {
+    "status": "pass",
+    "note": "Les 57 images sont cohérentes avec Chimi, sans coupure, fragment fantôme, halo bleu ni membre surnuméraire."
+  },
+  "outputs": {
+    "spritesheet": "../final/spritesheet.webp",
+    "contactSheet": "contact-sheet.png",
+    "previews": "previews",
+    "package": "../package/chimi"
+  }
+}

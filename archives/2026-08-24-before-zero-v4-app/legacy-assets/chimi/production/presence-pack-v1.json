@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-presence-pack-v1",
+  "baseLayer": {
+    "clip": "idle-breathe-v2/manifest.json",
+    "continuous": true
+  },
+  "microActions": {
+    "blink": {
+      "clip": "blink-v1/manifest.json",
+      "cooldownMs": [4000, 9000],
+      "weight": 1.0
+    },
+    "lookLeft": {
+      "clip": "look-left-v1/manifest.json",
+      "cooldownMs": [7000, 15000],
+      "weight": 0.65
+    },
+    "lookRight": {
+      "clip": "look-right-v1/manifest.json",
+      "cooldownMs": [7000, 15000],
+      "weight": 0.65
+    },
+    "earTwitch": {
+      "clip": "ear-twitch-v1/manifest.json",
+      "cooldownMs": [8000, 18000],
+      "weight": 0.45
+    },
+    "tailSway": {
+      "clip": "tail-sway-v2/manifest.json",
+      "cooldownMs": [6000, 14000],
+      "weight": 0.7
+    },
+    "mouthOpen": {
+      "clip": "mouth-open-v1/manifest.json",
+      "cooldownMs": [8000, 18000],
+      "weight": 0.4
+    },
+    "standUp": {
+      "clip": "stand-up-v1/manifest.json",
+      "cooldownMs": [30000, 90000],
+      "weight": 0.2
+    }
+  },
+  "scheduler": {
+    "rollIntervalMs": [2500, 8500],
+    "nothingWeight": 0.45,
+    "historySize": 5,
+    "maxActionsInSequence": 2,
+    "forcedPauseMs": [1500, 4000],
+    "allowSameTick": false,
+    "fixedInterval": false,
+    "productionSeed": null
+  },
+  "reducedMotion": {
+    "baseLayer": "still-master",
+    "allowedMicroActions": ["blink", "lookLeft", "lookRight", "mouthOpen"]
+  }
+}

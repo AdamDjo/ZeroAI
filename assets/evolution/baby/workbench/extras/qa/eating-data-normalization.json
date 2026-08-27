@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/decoded/eating-data.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/eating-data.png",
+  "frameCount": 6,
+  "width": 1536,
+  "height": 208,
+  "errors": [],
+  "frames": [
+    {
+      "index": 0,
+      "nontransparentPixels": 13345,
+      "edgePixels": 0
+    },
+    {
+      "index": 1,
+      "nontransparentPixels": 12929,
+      "edgePixels": 0
+    },
+    {
+      "index": 2,
+      "nontransparentPixels": 13018,
+      "edgePixels": 0
+    },
+    {
+      "index": 3,
+      "nontransparentPixels": 12998,
+      "edgePixels": 0
+    },
+    {
+      "index": 4,
+      "nontransparentPixels": 12815,
+      "edgePixels": 0
+    },
+    {
+      "index": 5,
+      "nontransparentPixels": 12745,
+      "edgePixels": 0
+    }
+  ]
+}

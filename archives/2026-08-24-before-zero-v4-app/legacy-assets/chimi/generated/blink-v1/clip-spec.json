@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "profile": "blink",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "projectRoot": "../../../..",
+  "master": "design/reference/CHIMI_MASTER_V1.png",
+  "masterMetadata": "design/reference/CHIMI_MASTER_V1.json",
+  "framesDirectory": "frames",
+  "id": "chimi-blink-v1",
+  "frameCount": 4,
+  "durationsMs": [
+    70,
+    65,
+    90,
+    90
+  ],
+  "motion": [
+    "open",
+    "half",
+    "closed",
+    "open"
+  ],
+  "loop": false,
+  "loopClosure": "exact",
+  "requireMasterEndpoints": true,
+  "minDistinctFrames": 3,
+  "minAlphaIou": 0.98,
+  "maxBaselineDelta": 0,
+  "maxBboxJitter": 0,
+  "maxComponentsDelta": 0,
+  "mutableRegions": [
+    [
+      26,
+      34,
+      67,
+      50
+    ]
+  ],
+  "protectedRegions": [
+    {
+      "name": "pattes",
+      "bounds": [
+        14,
+        75,
+        72,
+        88
+      ],
+      "maxChangedPixels": 0
+    }
+  ]
+}

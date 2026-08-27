@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "profile": "thinking-v2",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "projectRoot": "../../../..",
+  "master": "design/reference/CHIMI_MASTER_V1.png",
+  "masterMetadata": "design/reference/CHIMI_MASTER_V1.json",
+  "framesDirectory": "frames",
+  "id": "chimi-thinking-v2",
+  "frameCount": 8,
+  "durationsMs": [
+    280,
+    120,
+    180,
+    420,
+    260,
+    360,
+    160,
+    280
+  ],
+  "motion": [
+    "neutral",
+    "notice",
+    "glance-up",
+    "focus",
+    "ear-listen",
+    "energy-pulse",
+    "settle",
+    "neutral"
+  ],
+  "loop": false,
+  "loopClosure": "exact",
+  "requireMasterEndpoints": true,
+  "minDistinctFrames": 6,
+  "minPeakChangedPixels": 35,
+  "minAlphaIou": 0.965,
+  "maxBaselineDelta": 0,
+  "maxBboxJitter": 2,
+  "maxComponentsDelta": 0,
+  "mutableRegions": [
+    [
+      12,
+      7,
+      70,
+      53
+    ],
+    [
+      35,
+      53,
+      50,
+      69
+    ],
+    [
+      72,
+      36,
+      89,
+      61
+    ]
+  ],
+  "protectedRegions": [
+    {
+      "name": "pattes",
+      "bounds": [
+        14,
+        75,
+        72,
+        88
+      ],
+      "maxChangedPixels": 0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "chimi-presence-60s-v1",
+  "status": "passed",
+  "durationMs": 60000,
+  "seed": 20260824,
+  "mode": "deterministic-coverage-audit",
+  "checks": {
+    "sourceValidationPassed": true,
+    "allMicroActionsCovered": true,
+    "allSemanticActionsCovered": true,
+    "noOverlappingActions": true,
+    "variableIntervals": true,
+    "truePausePresent": true,
+    "noRepeatedTenSecondSequence": true,
+    "reactionLatencyUnder120Ms": true,
+    "neutralReturnPassed": true,
+    "noActionDominates": true
+  },
+  "metrics": {
+    "eventCount": 9,
+    "microActionsSeen": [
+      "blink",
+      "earTwitch",
+      "lookLeft",
+      "lookRight",
+      "mouthOpen",
+      "standUp",
+      "tailSway"
+    ],
+    "semanticActionsSeen": [
+      "happy",
+      "thinking"
+    ],
+    "idleGapsMs": [
+      4039,
+      2618,
+      5330,
+      4923,
+      4194,
+      4904,
+      4407,
+      3520,
+      7042,
+      9388
+    ],
+    "startIntervalsMs": [
+      3398,
+      6520,
+      6043,
+      5954,
+      6614,
+      4722,
+      4710,
+      8262
+    ],
+    "reactionLatenciesMs": [
+      0,
+      0
+    ],
+    "actionDominance": {
+      "mouthOpen": 0.013,
+      "lookLeft": 0.0198,
+      "tailSway": 0.0187,
+      "thinking": 0.0293,
+      "standUp": 0.0285,
+      "blink": 0.0053,
+      "lookRight": 0.0198,
+      "happy": 0.0203,
+      "earTwitch": 0.0058
+    }
+  }
+}

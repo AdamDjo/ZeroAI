@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "qa_note": "All nine standard rows preserve the approved low crouched infant identity with stable scale, baseline, anatomy and motion semantics.",
+  "repair_rows": [],
+  "reviewed_by": "isolated-visual-worker"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-mouth-open-v1",
+  "status": "passed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 4,
+  "peakChangedPixels": 10,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "yeux": 0,
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 5,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "yeux": 0,
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 10,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "yeux": 0,
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "yeux": 0,
+        "pattes": 0
+      },
+      "errors": []
+    }
+  ],
+  "errors": []
+}

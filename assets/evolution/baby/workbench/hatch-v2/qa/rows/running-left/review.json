@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames",
+  "states": [
+    "running-left"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17204,
+          "bbox": [
+            7,
+            30,
+            184,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 223
+        },
+        {
+          "index": 1,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16976,
+          "bbox": [
+            5,
+            35,
+            186,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 247
+        },
+        {
+          "index": 2,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16462,
+          "bbox": [
+            6,
+            31,
+            186,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 208
+        },
+        {
+          "index": 3,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16799,
+          "bbox": [
+            5,
+            35,
+            187,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 349
+        },
+        {
+          "index": 4,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15225,
+          "bbox": [
+            5,
+            34,
+            187,
+            173
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 360
+        },
+        {
+          "index": 5,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15720,
+          "bbox": [
+            5,
+            36,
+            187,
+            171
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 337
+        },
+        {
+          "index": 6,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16242,
+          "bbox": [
+            12,
+            32,
+            179,
+            176
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 198
+        },
+        {
+          "index": 7,
+          "file": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/hatch-v2/qa/rows/running-left/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16169,
+          "bbox": [
+            15,
+            35,
+            176,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 190
+        }
+      ]
+    }
+  ]
+}

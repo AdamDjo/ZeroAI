@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "source": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/master/ZERO_BABY_SOURCE_REFERENCE.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/master/ZERO_BABY_MASTER_V1.png",
+  "chromaKey": {
+    "rgb": [
+      248,
+      4,
+      246
+    ],
+    "hex": "#F804F6"
+  },
+  "threshold": 96,
+  "size": [
+    1254,
+    1254
+  ],
+  "transparentPixels": 1106692,
+  "opaquePixels": 465824,
+  "partialAlphaPixels": 0,
+  "bbox": [
+    223,
+    345,
+    1144,
+    1036
+  ],
+  "cornerAlpha": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

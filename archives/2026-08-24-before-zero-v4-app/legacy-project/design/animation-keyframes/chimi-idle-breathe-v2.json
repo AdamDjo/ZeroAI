@@ -1,0 +1,36 @@
+{
+  "id": "chimi-idle-breathe-v2",
+  "master": "CHIMI_MASTER_V1",
+  "technique": "contour-pixel-paint",
+  "amplitudePixels": 1,
+  "rules": {
+    "movesRectangularRegions": false,
+    "preservesFace": true,
+    "preservesFeet": true,
+    "preservesTail": true,
+    "preservesBaseline": true
+  },
+  "poses": {
+    "frame-02.png": [
+      {"y": 66, "left": 25, "right": 59},
+      {"y": 67, "left": 25, "right": 59},
+      {"y": 68, "left": 25, "right": 59},
+      {"y": 69, "left": 25, "right": 59}
+    ],
+    "frame-03.png": [
+      {"y": 63, "left": 27, "right": 57},
+      {"y": 64, "left": 26, "right": 58},
+      {"y": 65, "left": 26, "right": 58},
+      {"y": 66, "left": 25, "right": 59},
+      {"y": 67, "left": 25, "right": 59},
+      {"y": 68, "left": 25, "right": 59},
+      {"y": 69, "left": 25, "right": 59}
+    ],
+    "frame-04.png": [
+      {"y": 66, "left": 25, "right": 59},
+      {"y": 67, "left": 25, "right": 59},
+      {"y": 68, "left": 25, "right": 59},
+      {"y": 69, "left": 25, "right": 59}
+    ]
+  }
+}

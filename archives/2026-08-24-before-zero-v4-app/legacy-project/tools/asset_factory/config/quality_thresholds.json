@@ -1,0 +1,12 @@
+{
+  "_source": "docs/vault/04-validation/Seuils-Qualite.md",
+  "_rule": "Ne pas assouplir. Un seuil qui echoue systematiquement signale un probleme de prompt.",
+  "mandatory": ["dimensions", "alpha"],
+  "scored": {
+    "baseline": 0.95,
+    "identity": 0.90,
+    "palette": 0.85
+  },
+  "total": 0.90,
+  "severityOrder": ["baseline", "identity", "palette"]
+}

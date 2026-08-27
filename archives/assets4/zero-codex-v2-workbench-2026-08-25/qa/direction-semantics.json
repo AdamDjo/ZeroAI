@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "reviewer": "independent-final-visual-qa",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "reason": "Le regard lime est relevé dans la visière."
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Tête et regard progressent vers le haut et la droite écran."
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Orientation diagonale haut-droite lisible."
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "reason": "Transition cohérente vers la droite."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "reason": "Cardinale droite sans ambiguïté."
+    },
+    {
+      "direction": "112.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Regard dirigé vers le bas et la droite écran."
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Orientation diagonale bas-droite lisible."
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "reason": "Dernière étape bas-droite avant la cardinale basse."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "reason": "Cardinale basse sans ambiguïté."
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Regard dirigé vers le bas et la gauche écran."
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Orientation diagonale bas-gauche lisible."
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "reason": "Transition cohérente vers la gauche."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "reason": "Cardinale gauche sans ambiguïté."
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Regard dirigé vers le haut et la gauche écran."
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Orientation diagonale haut-gauche lisible."
+    },
+    {
+      "direction": "337.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "up-left",
+      "reason": "Dernière étape haut-gauche avant la cardinale haute."
+    }
+  ],
+  "notes": [
+    "Trois revues aveugles concordantes ont validé les 14 comparaisons.",
+    "Les trous transparents mesurés correspondent aux espaces naturels de la silhouette.",
+    "La transition 157.5°→180° est visible mais jugée acceptable à la taille d’affichage du pet."
+  ]
+}

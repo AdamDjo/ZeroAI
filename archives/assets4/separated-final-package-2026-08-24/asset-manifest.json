@@ -1,0 +1,31 @@
+{
+  "id": "zero-v4",
+  "displayName": "Zéro",
+  "status": "production-ready",
+  "master": "ZERO_MASTER_V1.png",
+  "canonicalBase": "ZERO_CANONICAL_BASE.png",
+  "sourceReference": "ZERO_SOURCE_REFERENCE.png",
+  "runtime": {
+    "pet": "pet.json",
+    "spritesheet": "spritesheet.webp",
+    "standardStates": 9,
+    "standardFrames": 57
+  },
+  "extras": {
+    "manifest": "extras.json",
+    "directory": "extras",
+    "clips": 4,
+    "frames": 24
+  },
+  "previews": {
+    "directory": "previews",
+    "count": 9
+  },
+  "qa": {
+    "standardContactSheet": "qa/standard-contact-sheet.png",
+    "extrasContactSheet": "qa/extras-contact-sheet.png",
+    "atlasValidation": "qa/atlas-validation.json",
+    "frameReview": "qa/frame-review.json",
+    "runSummary": "qa/run-summary.json"
+  }
+}

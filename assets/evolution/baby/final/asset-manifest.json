@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "packageId": "zero-baby-app-atlas-v1",
+  "stage": "baby",
+  "createdAt": "2026-08-26",
+  "status": "ready-for-app",
+  "files": [
+    {"path": "ZERO_BABY_MASTER_V1.png", "role": "canonical-master", "bytes": 543237, "sha256": "051fa232cea02f8f44224bf84df1a48aacfe88010ae4b9ee41344feb3c5eec61"},
+    {"path": "ZERO_BABY_SOURCE_REFERENCE.png", "role": "source-reference", "bytes": 1378540, "sha256": "efb941676614ce16e3e3ca823fe2262bd4fc1ea4444b2b0678cf36cbe4828e01"},
+    {"path": "spritesheet.webp", "role": "app-atlas-8x15", "bytes": 2832996, "sha256": "c3bd14cc936079364f6862e3293eaf925488fea70e4a75e6675418faa3fc828d"},
+    {"path": "pet.json", "role": "runtime-manifest", "bytes": 3200, "sha256": "a0de6d419d21e3529a38cb680ee9e527ad04ae9a1b2e8a9489282b261ed37810"},
+    {"path": "stage.json", "role": "evolution-stage-contract", "bytes": 975, "sha256": "8766cd31394477dd753f9ce5e24c077db55821e3aebb86ac733f7667daafda57"},
+    {"path": "complete-atlas-validation.json", "role": "structural-validation", "bytes": 16488, "sha256": "09bb05d688c777be45692495ca2dea6d0ef236a551f67a3b4e7dfd6612e41951"},
+    {"path": "qa/qa-summary.json", "role": "preview-and-cell-validation", "bytes": 1440, "sha256": "64a8a2de499136d76878c2756a01d22264a66412ce159573d88bfa3abc78966a"}
+  ],
+  "capabilities": {
+    "animations": 13,
+    "lookDirections": 16,
+    "usedFrames": 97,
+    "gifPreviews": 13,
+    "transparentBackground": true
+  },
+  "qaPolicy": {
+    "technical": "pass",
+    "visual": "pass-with-user-approved-direction-waiver",
+    "waiver": "qa/core/user-approved-direction-waiver.json"
+  }
+}
