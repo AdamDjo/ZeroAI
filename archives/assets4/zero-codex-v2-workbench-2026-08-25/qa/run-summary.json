@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25",
+  "spritesheet": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/final/spritesheet-extended.webp",
+  "validation": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/final/validation-extended.json",
+  "chroma_despill": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/look-directions.png",
+  "direction_semantics": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/direction-blind-validation.json",
+  "continuity": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/look-continuity.json",
+  "review": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/review.json",
+  "independent_review": "/Users/adembenmessaoud/dev/ZeroAi/archives/assets4/zero-codex-v2-workbench-2026-08-25/qa/final-independent-review.json",
+  "package": "/Users/adembenmessaoud/.codex/pets/zero"
+}

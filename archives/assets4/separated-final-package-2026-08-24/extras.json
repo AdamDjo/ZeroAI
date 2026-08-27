@@ -1,0 +1,30 @@
+{
+  "petId": "zero-v4",
+  "type": "standalone-custom-clips",
+  "clips": [
+    {
+      "id": "sleeping",
+      "frames": 6,
+      "gifPath": "extras/sleeping.gif",
+      "stripPath": "extras/sleeping-strip.png"
+    },
+    {
+      "id": "happy",
+      "frames": 6,
+      "gifPath": "extras/happy.gif",
+      "stripPath": "extras/happy-strip.png"
+    },
+    {
+      "id": "petting-reaction",
+      "frames": 6,
+      "gifPath": "extras/petting-reaction.gif",
+      "stripPath": "extras/petting-reaction-strip.png"
+    },
+    {
+      "id": "eating-data",
+      "frames": 6,
+      "gifPath": "extras/eating-data.gif",
+      "stripPath": "extras/eating-data-strip.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/petting-reaction.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/petting-reaction.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 11158,
+  "decontaminated_pixels": 9137,
+  "spill_suppressed_pixels": 11158,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 1946,
+    "r0c0": 1896,
+    "r0c2": 1881,
+    "r0c5": 1834,
+    "r0c4": 1822,
+    "r0c1": 1779
+  },
+  "alpha_preserved": true
+}

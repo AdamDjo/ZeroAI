@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-by-user",
+  "acceptedAt": "2026-08-26",
+  "scope": "zero-baby hatch-v2 look directions",
+  "decision": "Keep the current 16-look atlas unchanged.",
+  "userStatement": "non moi je le trouve bien garde comme ça c'est ok",
+  "knownQaExceptions": [
+    "270 degrees is not consistently recognized as screen-left in blind review",
+    "000 degrees is not consistently recognized as up in blind review",
+    "some intermediate directions remain subtle or ambiguous"
+  ],
+  "technicalAtlasValidation": "pass",
+  "blindDirectionValidation": "waived",
+  "regenerationRequired": false
+}

@@ -1,0 +1,65 @@
+{
+  "petId": "zero-v4",
+  "canonicalMaster": "../final/ZERO_MASTER_V1.png",
+  "contract": "standalone-custom-clips",
+  "clips": [
+    {
+      "id": "sleeping",
+      "frames": 6,
+      "status": "complete",
+      "prompt": "prompts/sleeping.md",
+      "strip": "sleeping/sleeping-strip.png",
+      "gif": "sleeping/sleeping.gif",
+      "sourcePath": "/Users/adembenmessaoud/.codex/generated_images/01a0353d-8eb7-7ef2-88cc-ec2cf0b6ae7e/exec-d4d23693-268d-4474-9390-0161601308d0.png",
+      "completedAt": "2026-08-24T20:33:14Z",
+      "sourceStrip": "decoded/sleeping.png",
+      "validated": true,
+      "validatedAt": "2026-08-24T20:50:03Z",
+      "review": "qa/sleeping-review.json"
+    },
+    {
+      "id": "happy",
+      "frames": 6,
+      "status": "complete",
+      "prompt": "prompts/happy.md",
+      "strip": "happy/happy-strip.png",
+      "gif": "happy/happy.gif",
+      "sourcePath": "/Users/adembenmessaoud/.codex/generated_images/01a0353d-8eb7-7ef2-88cc-ec2cf0b6ae7e/exec-339a2ba5-f397-42a3-8496-6d230783f616.png",
+      "completedAt": "2026-08-24T20:37:22Z",
+      "repairNote": "Feet baseline stabilized in frames 2, 3 and 5.",
+      "sourceStrip": "decoded/happy.png",
+      "validated": true,
+      "validatedAt": "2026-08-24T20:50:03Z",
+      "review": "qa/happy-review.json"
+    },
+    {
+      "id": "petting-reaction",
+      "frames": 6,
+      "status": "complete",
+      "prompt": "prompts/petting-reaction.md",
+      "strip": "petting-reaction/petting-reaction-strip.png",
+      "gif": "petting-reaction/petting-reaction.gif",
+      "sourcePath": "/Users/adembenmessaoud/.codex/generated_images/01a0353d-8eb7-7ef2-88cc-ec2cf0b6ae7e/exec-ed87b306-a984-4c43-8112-3911faa3649c.png",
+      "completedAt": "2026-08-24T20:39:22Z",
+      "sourceStrip": "decoded/petting-reaction.png",
+      "validated": true,
+      "validatedAt": "2026-08-24T20:50:03Z",
+      "review": "qa/petting-reaction-review.json"
+    },
+    {
+      "id": "eating-data",
+      "frames": 6,
+      "status": "complete",
+      "prompt": "prompts/eating-data.md",
+      "strip": "eating-data/eating-data-strip.png",
+      "gif": "eating-data/eating-data.gif",
+      "sourcePath": "/Users/adembenmessaoud/.codex/generated_images/01a0353d-8eb7-7ef2-88cc-ec2cf0b6ae7e/exec-6a3728c7-b571-4fa1-9b87-5fe3afb7f9e8.png",
+      "completedAt": "2026-08-24T20:44:55Z",
+      "repairNote": "Removed lime data particles detached outside the visor.",
+      "sourceStrip": "decoded/eating-data.png",
+      "validated": true,
+      "validatedAt": "2026-08-24T20:50:03Z",
+      "review": "qa/eating-data-review.json"
+    }
+  ]
+}

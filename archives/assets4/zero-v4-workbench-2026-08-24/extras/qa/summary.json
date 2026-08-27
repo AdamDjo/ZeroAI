@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "clipCount": 4,
+  "frameCount": 24,
+  "clips": [
+    "sleeping",
+    "happy",
+    "petting-reaction",
+    "eating-data"
+  ],
+  "contactSheet": "contact-sheet.png",
+  "visualQa": {
+    "status": "pass",
+    "note": "Les 24 frames respectent ZERO_MASTER_V1 avec exactement quatre membres, des boucles stables et aucun halo, fragment ou effet externe."
+  },
+  "standardAtlasModified": false,
+  "packageManifest": "../../package/zero-v4/extras.json"
+}

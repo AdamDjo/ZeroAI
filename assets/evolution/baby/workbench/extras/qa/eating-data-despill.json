@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/eating-data.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/eating-data.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 9879,
+  "decontaminated_pixels": 8442,
+  "spill_suppressed_pixels": 9879,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c0": 1814,
+    "r0c2": 1679,
+    "r0c3": 1635,
+    "r0c1": 1606,
+    "r0c4": 1594,
+    "r0c5": 1551
+  },
+  "alpha_preserved": true
+}

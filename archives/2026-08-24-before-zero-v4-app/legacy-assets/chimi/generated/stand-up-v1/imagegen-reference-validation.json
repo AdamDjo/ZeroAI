@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-stand-up-v1",
+  "status": "failed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 6,
+  "peakChangedPixels": 4069,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 0.576286,
+      "baselineDelta": 0,
+      "bboxDelta": 4,
+      "componentCount": 1,
+      "changedPixelsFromMaster": 4069,
+      "changesOutsideMutableRegions": 304,
+      "protectedChanges": {},
+      "errors": [
+        "silhouette IoU 0.5763 < 0.72",
+        "silhouette coupée : 1 composantes au lieu de 2",
+        "304 pixels modifiés hors zones mutables"
+      ]
+    },
+    {
+      "frame": "frame-05.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-06.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    }
+  ],
+  "errors": [
+    "frame-04.png: silhouette IoU 0.5763 < 0.72",
+    "frame-04.png: silhouette coupée : 1 composantes au lieu de 2",
+    "frame-04.png: 304 pixels modifiés hors zones mutables",
+    "Clip trop statique : 2 poses distinctes, minimum 5."
+  ]
+}

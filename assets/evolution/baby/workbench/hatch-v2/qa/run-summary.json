@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "petId": "zero-baby",
+  "stage": "baby",
+  "completedAt": "2026-08-26",
+  "skills": ["hatch-zero-evolution", "hatch-pet", "imagegen"],
+  "canonicalMaster": "ZERO_BABY_MASTER_V1.png",
+  "hatchCore": {
+    "layout": "8x11",
+    "spriteVersionNumber": 2,
+    "animations": 9,
+    "lookDirections": 16,
+    "technicalValidation": "pass",
+    "blindDirectionValidation": "accepted-by-user-with-waiver"
+  },
+  "runningRepair": {
+    "status": "pass",
+    "rightRowSource": "/Users/adembenmessaoud/.codex/generated_images/01a01f7a-be88-7d63-b36e-72de0c137170/exec-f815ea9a-3c7d-4500-822a-9a6db069787e.png",
+    "leftRow": "deterministic horizontal mirror",
+    "reason": "improve feline silhouette and keep limb cues coherent"
+  },
+  "extras": {
+    "sleeping": "pass",
+    "happy": "pass",
+    "petting-reaction": "pass",
+    "eating-data": "pass"
+  },
+  "appAtlas": {
+    "layout": "8x15",
+    "animations": 13,
+    "lookDirections": 16,
+    "usedFrames": 97,
+    "technicalValidation": "pass",
+    "visualQa": "pass"
+  },
+  "anatomyRule": "exactly four anatomical limbs; coherent natural occlusion is allowed",
+  "output": "assets/evolution/baby/final/"
+}

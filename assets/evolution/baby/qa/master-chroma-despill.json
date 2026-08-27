@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/master/ZERO_BABY_MASTER_V1.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/master/ZERO_BABY_MASTER_V1_CLEAN.png",
+  "chroma_key": "#F804F6",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 11654,
+  "decontaminated_pixels": 0,
+  "spill_suppressed_pixels": 11654,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r3c5": 1644,
+    "r4c4": 981,
+    "r4c2": 905,
+    "r3c1": 888,
+    "r3c4": 798,
+    "r1c4": 707,
+    "r4c1": 702,
+    "r4c3": 689,
+    "r2c1": 682,
+    "r1c2": 656,
+    "r2c4": 639,
+    "r4c5": 616,
+    "r2c5": 605,
+    "r1c3": 603,
+    "r1c1": 539
+  },
+  "alpha_preserved": true
+}

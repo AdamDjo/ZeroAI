@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-happy-v1",
+  "status": "passed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 6,
+  "peakChangedPixels": 1521,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 37,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 0.886485,
+      "baselineDelta": 2,
+      "bboxDelta": 2,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 968,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 0.804839,
+      "baselineDelta": 4,
+      "bboxDelta": 4,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 1521,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-05.png",
+      "alphaIou": 0.940462,
+      "baselineDelta": 1,
+      "bboxDelta": 1,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 564,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-06.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    }
+  ],
+  "errors": []
+}

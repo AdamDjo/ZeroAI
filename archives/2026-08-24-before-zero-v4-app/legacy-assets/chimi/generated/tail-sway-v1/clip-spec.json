@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "profile": "tail-sway",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "projectRoot": "../../../..",
+  "master": "design/reference/CHIMI_MASTER_V1.png",
+  "masterMetadata": "design/reference/CHIMI_MASTER_V1.json",
+  "framesDirectory": "frames",
+  "id": "chimi-tail-sway-v1",
+  "frameCount": 5,
+  "durationsMs": [
+    180,
+    160,
+    170,
+    190,
+    220
+  ],
+  "motion": [
+    "neutral",
+    "arc",
+    "overshoot",
+    "settle",
+    "neutral"
+  ],
+  "loop": false,
+  "loopClosure": "exact",
+  "requireMasterEndpoints": true,
+  "minDistinctFrames": 4,
+  "minAlphaIou": 0.93,
+  "maxBaselineDelta": 0,
+  "maxBboxJitter": 2,
+  "maxComponentsDelta": 0,
+  "mutableRegions": [
+    [
+      56,
+      32,
+      88,
+      80
+    ]
+  ],
+  "protectedRegions": [
+    {
+      "name": "visage",
+      "bounds": [
+        24,
+        31,
+        68,
+        58
+      ],
+      "maxChangedPixels": 0
+    },
+    {
+      "name": "pattes",
+      "bounds": [
+        14,
+        75,
+        72,
+        88
+      ],
+      "maxChangedPixels": 0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "profile": "stand-up",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "projectRoot": "../../../..",
+  "master": "design/reference/CHIMI_MASTER_V1.png",
+  "masterMetadata": "design/reference/CHIMI_MASTER_V1.json",
+  "framesDirectory": "frames",
+  "id": "chimi-stand-up-v1",
+  "frameCount": 6,
+  "durationsMs": [
+    280,
+    140,
+    180,
+    650,
+    180,
+    280
+  ],
+  "motion": [
+    "sit",
+    "anticipation",
+    "rise",
+    "stand",
+    "settle",
+    "sit"
+  ],
+  "loop": false,
+  "loopClosure": "exact",
+  "requireMasterEndpoints": true,
+  "minDistinctFrames": 5,
+  "minPeakChangedPixels": 250,
+  "minAlphaIou": 0.72,
+  "maxBaselineDelta": 0,
+  "maxBboxJitter": 6,
+  "maxComponentsDelta": 0,
+  "mutableRegions": [
+    [
+      14,
+      1,
+      90,
+      87
+    ]
+  ],
+  "protectedRegions": []
+}

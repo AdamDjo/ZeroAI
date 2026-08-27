@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "chimi-presence-60s-v1",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "durationMs": 60000,
+  "seed": 20260824,
+  "mode": "deterministic-coverage-audit",
+  "baseLayer": "chimi-idle-breathe-v2",
+  "events": [
+    {
+      "action": "mouthOpen",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-mouth-open-v1",
+      "startMs": 4039,
+      "endMs": 4819,
+      "durationMs": 780,
+      "frameCount": 4
+    },
+    {
+      "action": "lookLeft",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-look-left-v1",
+      "startMs": 7437,
+      "endMs": 8627,
+      "durationMs": 1190,
+      "frameCount": 3
+    },
+    {
+      "action": "tailSway",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-tail-sway-v2",
+      "startMs": 13957,
+      "endMs": 15077,
+      "durationMs": 1120,
+      "frameCount": 5
+    },
+    {
+      "action": "thinking",
+      "kind": "semantic",
+      "source": "audit-trigger",
+      "clipId": "chimi-thinking-v1",
+      "startMs": 20000,
+      "endMs": 21760,
+      "durationMs": 1760,
+      "frameCount": 6,
+      "triggerMs": 20000,
+      "reactionLatencyMs": 0
+    },
+    {
+      "action": "standUp",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-stand-up-v1",
+      "startMs": 25954,
+      "endMs": 27664,
+      "durationMs": 1710,
+      "frameCount": 6
+    },
+    {
+      "action": "blink",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-blink-v1",
+      "startMs": 32568,
+      "endMs": 32883,
+      "durationMs": 315,
+      "frameCount": 4
+    },
+    {
+      "action": "lookRight",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-look-right-v1",
+      "startMs": 37290,
+      "endMs": 38480,
+      "durationMs": 1190,
+      "frameCount": 3
+    },
+    {
+      "action": "happy",
+      "kind": "semantic",
+      "source": "audit-trigger",
+      "clipId": "chimi-happy-v1",
+      "startMs": 42000,
+      "endMs": 43220,
+      "durationMs": 1220,
+      "frameCount": 6,
+      "triggerMs": 42000,
+      "reactionLatencyMs": 0
+    },
+    {
+      "action": "earTwitch",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-ear-twitch-v1",
+      "startMs": 50262,
+      "endMs": 50612,
+      "durationMs": 350,
+      "frameCount": 3
+    }
+  ],
+  "decisions": [
+    {
+      "atMs": 4039,
+      "result": "mouthOpen",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 20743,
+      "history": [
+        "mouthOpen"
+      ]
+    },
+    {
+      "atMs": 7437,
+      "result": "lookLeft",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 20336,
+      "history": [
+        "mouthOpen",
+        "lookLeft"
+      ]
+    },
+    {
+      "atMs": 13957,
+      "result": "tailSway",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 24614,
+      "history": [
+        "mouthOpen",
+        "lookLeft",
+        "tailSway"
+      ]
+    },
+    {
+      "atMs": 19445,
+      "result": "semantic-reserved",
+      "actionSkipped": "standUp",
+      "untilMs": 21760
+    },
+    {
+      "atMs": 25954,
+      "result": "standUp",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 61684,
+      "history": [
+        "mouthOpen",
+        "lookLeft",
+        "tailSway",
+        "standUp"
+      ]
+    },
+    {
+      "atMs": 32568,
+      "result": "blink",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 39466,
+      "history": [
+        "mouthOpen",
+        "lookLeft",
+        "tailSway",
+        "standUp",
+        "blink"
+      ]
+    },
+    {
+      "atMs": 37290,
+      "result": "lookRight",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 49308,
+      "history": [
+        "lookLeft",
+        "tailSway",
+        "standUp",
+        "blink",
+        "lookRight"
+      ]
+    },
+    {
+      "atMs": 41745,
+      "result": "semantic-reserved",
+      "actionSkipped": "earTwitch",
+      "untilMs": 43220
+    },
+    {
+      "atMs": 50262,
+      "result": "earTwitch",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 62992,
+      "history": [
+        "tailSway",
+        "standUp",
+        "blink",
+        "lookRight",
+        "earTwitch"
+      ]
+    },
+    {
+      "atMs": 56645,
+      "result": "nothing"
+    }
+  ]
+}

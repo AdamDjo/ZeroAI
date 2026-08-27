@@ -1,0 +1,21 @@
+{
+  "id": "zero-v4",
+  "displayName": "Zéro",
+  "status": "production-ready",
+  "master": "ZERO_MASTER_V1.png",
+  "canonicalBase": "ZERO_CANONICAL_BASE.png",
+  "sourceReference": "ZERO_SOURCE_REFERENCE.png",
+  "runtime": {
+    "pet": "pet.json",
+    "spritesheet": "spritesheet.webp",
+    "atlasColumns": 8,
+    "atlasRows": 13,
+    "stateCount": 13,
+    "frameCount": 81
+  },
+  "qa": {
+    "contactSheet": "qa/complete-contact-sheet.png",
+    "atlasValidation": "qa/complete-atlas-validation.json"
+  },
+  "archive": "../../../archives/assets4/zero-v4-workbench-2026-08-24"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CHIMI_MASTER_V1",
+  "status": "approved",
+  "approvedBy": "codex-art-director",
+  "approvedAt": "2026-08-20",
+  "canvas": [96, 96],
+  "centerX": 48,
+  "baselineY": 86,
+  "bbox": [14, 9, 82, 87],
+  "palette": "../chimi_palette.json",
+  "sourceReference": "master_source_crop.png",
+  "generatedSource": "../../assets/chimi/generated/chimi-master-v1-imagegen-source.png",
+  "productionAsset": "../../assets/chimi/production/chimi-master-v1.png",
+  "sha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c"
+}

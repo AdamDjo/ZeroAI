@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/decoded/petting-reaction.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/petting-reaction.png",
+  "frameCount": 6,
+  "width": 1536,
+  "height": 208,
+  "errors": [],
+  "frames": [
+    {
+      "index": 0,
+      "nontransparentPixels": 16748,
+      "edgePixels": 0
+    },
+    {
+      "index": 1,
+      "nontransparentPixels": 16682,
+      "edgePixels": 0
+    },
+    {
+      "index": 2,
+      "nontransparentPixels": 16721,
+      "edgePixels": 0
+    },
+    {
+      "index": 3,
+      "nontransparentPixels": 14014,
+      "edgePixels": 0
+    },
+    {
+      "index": 4,
+      "nontransparentPixels": 16740,
+      "edgePixels": 0
+    },
+    {
+      "index": 5,
+      "nontransparentPixels": 16585,
+      "edgePixels": 0
+    }
+  ]
+}

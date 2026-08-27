@@ -1,0 +1,34 @@
+# Secrets — ne JAMAIS commiter
+.env
+.env.local
+*.key
+
+# Configuration locale des outils
+.claude/settings.local.json
+.idea/
+.vscode/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Assets generes — sortie brute de PixelLab, non validee
+assets/chimi/generated/
+tools/asset_factory/output/
+tools/asset_factory/reports/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+coverage/
+
+# Flutter
+apps/mobile/.dart_tool/
+apps/mobile/build/

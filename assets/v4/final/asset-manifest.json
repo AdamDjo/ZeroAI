@@ -1,0 +1,51 @@
+{
+  "id": "zero-v4",
+  "displayName": "Zéro",
+  "status": "production-ready",
+  "master": "ZERO_MASTER_V1.png",
+  "canonicalBase": "ZERO_CANONICAL_BASE.png",
+  "sourceReference": "ZERO_SOURCE_REFERENCE.png",
+  "runtime": {
+    "pet": "pet.json",
+    "spritesheet": "spritesheet.webp",
+    "atlasColumns": 8,
+    "atlasRows": 15,
+    "stateCount": 13,
+    "frameCount": 97,
+    "directionCount": 16
+  },
+  "qa": {
+    "contactSheet": "qa/complete-contact-sheet.png",
+    "atlasValidation": "qa/complete-atlas-validation.json",
+    "lookPreview": "qa/look-directions-preview.gif",
+    "lookDirections": "qa/look-directions.png",
+    "directionSemantics": "qa/direction-semantics.json",
+    "blindDirectionValidation": "qa/direction-blind-validation.json"
+  },
+  "archive": "../../../archives/assets4/zero-v4-workbench-2026-08-24",
+  "lookDirections": {
+    "source": "../../../archives/assets4/zero-codex-v2-workbench-2026-08-25/final/spritesheet-extended.webp",
+    "rows": [
+      13,
+      14
+    ],
+    "order": [
+      "000",
+      "022.5",
+      "045",
+      "067.5",
+      "090",
+      "112.5",
+      "135",
+      "157.5",
+      "180",
+      "202.5",
+      "225",
+      "247.5",
+      "270",
+      "292.5",
+      "315",
+      "337.5"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-thinking-v1",
+  "status": "passed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 6,
+  "peakChangedPixels": 69,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 16,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 51,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 69,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-05.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 18,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    },
+    {
+      "frame": "frame-06.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {
+        "pattes": 0
+      },
+      "errors": []
+    }
+  ],
+  "errors": []
+}

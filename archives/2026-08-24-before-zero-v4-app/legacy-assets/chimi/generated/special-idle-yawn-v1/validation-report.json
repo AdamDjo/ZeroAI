@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "clipId": "chimi-special-idle-yawn-v1",
+  "status": "failed",
+  "masterSha256": "911dcc4c6564249c06e323fc11ba35e28ec51db445df6012a2fe7d1fb177bc6c",
+  "frameCount": 8,
+  "peakChangedPixels": 927,
+  "metrics": [
+    {
+      "frame": "frame-01.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-02.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 32,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-03.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 88,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-04.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 5,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-05.png",
+      "alphaIou": 0.890206,
+      "baselineDelta": 0,
+      "bboxDelta": 2,
+      "componentCount": 1,
+      "changedPixelsFromMaster": 927,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": [
+        "silhouette coupée : 1 composantes au lieu de 2"
+      ]
+    },
+    {
+      "frame": "frame-06.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 10,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-07.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 32,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    },
+    {
+      "frame": "frame-08.png",
+      "alphaIou": 1.0,
+      "baselineDelta": 0,
+      "bboxDelta": 0,
+      "componentCount": 2,
+      "changedPixelsFromMaster": 0,
+      "changesOutsideMutableRegions": 0,
+      "protectedChanges": {},
+      "errors": []
+    }
+  ],
+  "errors": [
+    "frame-05.png: silhouette coupée : 1 composantes au lieu de 2"
+  ]
+}

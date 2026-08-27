@@ -1,0 +1,30 @@
+{
+  "manifestVersion": "1.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-mouth-open-v1",
+  "sheet": "chimi-mouth-open-v1-sheet.png",
+  "canvas": [
+    96,
+    96
+  ],
+  "frames": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "durationsMs": [
+    160,
+    120,
+    320,
+    180
+  ],
+  "motion": [
+    "closed",
+    "small-open",
+    "open",
+    "closed"
+  ],
+  "loop": false,
+  "validation": "validation-report.json"
+}

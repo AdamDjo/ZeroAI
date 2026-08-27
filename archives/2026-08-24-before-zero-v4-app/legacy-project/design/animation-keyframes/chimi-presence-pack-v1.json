@@ -1,0 +1,59 @@
+{
+  "master": "CHIMI_MASTER_V1",
+  "technique": "semantic-pixel-paint",
+  "movesRectangularBodyRegions": false,
+  "clips": {
+    "blink": {
+      "frame-02.png": "lower the upper eyelids while preserving the face silhouette",
+      "frame-03.png": "replace both open eyes with one-pixel closed-eye lines"
+    },
+    "look-left": {
+      "frame-02.png": "shift only the two black eye marks one pixel left"
+    },
+    "look-right": {
+      "frame-02.png": "shift only the two black eye marks one pixel right"
+    },
+    "ear-twitch": {
+      "frame-02.png": "tilt the top three rows of the left ear one pixel left"
+    },
+    "tail-sway": {
+      "frame-02.png": "small three-pixel outward tail contour anticipation",
+      "frame-03.png": "one-pixel outward arc with a three-pixel overshoot",
+      "frame-04.png": "short lower contour settle"
+    },
+    "tail-sway-v2": {
+      "frame-02.png": "curve the complete upper tail and orb two pixels right",
+      "frame-03.png": "three-pixel right overshoot with a tapered connection",
+      "frame-04.png": "one-pixel right settle before neutral"
+    },
+    "mouth-open": {
+      "frame-02.png": "five-pixel small dark mouth opening",
+      "frame-03.png": "ten-pixel open mouth with one peach tongue pixel"
+    },
+    "stand-up": {
+      "frame-02.png": "complete sprite raised one pixel with feet redrawn to baseline",
+      "frame-03.png": "complete sprite raised two pixels with extending legs",
+      "frame-04.png": "standing peak raised four pixels with straight legs",
+      "frame-05.png": "three-pixel settle before returning to sit"
+    },
+    "happy": {
+      "frame-02.png": "one-pixel anticipation squash with a small smile",
+      "frame-03.png": "complete joyful jump pose two pixels above neutral",
+      "frame-04.png": "three-pixel jump peak with closed happy eyes and open smile",
+      "frame-05.png": "one-pixel landing pose with the smile settling"
+    },
+    "thinking": {
+      "frame-02.png": "raise both pupils one pixel toward the upper-left",
+      "frame-03.png": "hold the upward gaze and brighten the collar center",
+      "frame-04.png": "pulse the existing collar and tail orb without adding particles",
+      "frame-05.png": "soft upward gaze settle before neutral"
+    }
+  },
+  "invariants": [
+    "full 96x96 frame",
+    "five-color master palette",
+    "fixed feet and baseline",
+    "continuous alpha silhouette",
+    "neutral master endpoints"
+  ]
+}

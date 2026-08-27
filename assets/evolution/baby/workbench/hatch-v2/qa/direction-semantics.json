@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "reviewedBy": "isolated-visual-worker",
+  "directions": [
+    {"degree": "000", "verdict": "warning", "expected": "up", "observed": "head raised and lime glyphs high but vertically subtle at normal size", "reason": "approved cardinal reads up; final loop reviewer found the cue quieter than the other cardinals"},
+    {"degree": "022.5", "verdict": "warning", "expected": "up-right", "observed": "slight screen-right drift with upward head family", "reason": "correct quadrant, subtle horizontal component"},
+    {"degree": "045", "verdict": "pass", "expected": "up-right", "observed": "head and visor open screen-right while remaining raised", "reason": "both axes are visible"},
+    {"degree": "067.5", "verdict": "warning", "expected": "up-right", "observed": "strong screen-right profile with smaller upward cue", "reason": "correct quadrant, vertical component is subtle"},
+    {"degree": "090", "verdict": "pass", "expected": "right", "observed": "unmistakable screen-right profile", "reason": "cardinal axis is clear"},
+    {"degree": "112.5", "verdict": "pass", "expected": "down-right", "observed": "right-facing head continues downward without frontal reversal", "reason": "both axes and continuity pass"},
+    {"degree": "135", "verdict": "pass", "expected": "down-right", "observed": "visor and head are lowered in the right-facing family", "reason": "both axes are visible"},
+    {"degree": "157.5", "verdict": "warning", "expected": "down-right", "observed": "nearly down with right axis preserved", "reason": "correct quadrant near the row boundary"},
+    {"degree": "180", "verdict": "pass", "expected": "down", "observed": "centered downward head and visor", "reason": "cardinal axis is clear"},
+    {"degree": "202.5", "verdict": "pass", "expected": "down-left", "observed": "lowered head begins turning screen-left", "reason": "both axes are visible"},
+    {"degree": "225", "verdict": "pass", "expected": "down-left", "observed": "coherent screen-left descending turn", "reason": "both axes are visible"},
+    {"degree": "247.5", "verdict": "warning", "expected": "down-left", "observed": "marked low screen-left profile", "reason": "metric transition is strong but visually continuous"},
+    {"degree": "270", "verdict": "pass", "expected": "left", "observed": "unmistakable screen-left profile", "reason": "cardinal axis is clear"},
+    {"degree": "292.5", "verdict": "pass", "expected": "up-left", "observed": "screen-left head begins rising", "reason": "both axes are visible"},
+    {"degree": "315", "verdict": "pass", "expected": "up-left", "observed": "three-quarter screen-left upward view", "reason": "both axes are visible"},
+    {"degree": "337.5", "verdict": "warning", "expected": "up-left", "observed": "coherent left-biased return toward up", "reason": "correct quadrant; wrap transition is visually acceptable"}
+  ],
+  "continuity": {"verdict": "pass", "reason": "No visible snap, pop, clipping, identity change, extra limb, detached tail orb or loop reversal."},
+  "alphaHoles": {"verdict": "pass", "reason": "Metric candidates at 000 and 022.5 are not visible as interior holes or seams at pet size."}
+}

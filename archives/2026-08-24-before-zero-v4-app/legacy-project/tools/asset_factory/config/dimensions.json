@@ -1,0 +1,19 @@
+{
+  "_source": "docs/vault/02-identite-visuelle/Canvas-96x96.md",
+  "canvas": {
+    "width": 96,
+    "height": 96,
+    "centerX": 48,
+    "baselineY": 86
+  },
+  "masterBbox": {
+    "x0": 17,
+    "y0": 13,
+    "x1": 81,
+    "y1": 86
+  },
+  "tolerances": {
+    "bboxPx": 5,
+    "baselinePx": 2
+  }
+}

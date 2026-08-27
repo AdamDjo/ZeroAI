@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "petId": "zero-v4",
+  "displayName": "Zéro",
+  "canonicalMaster": "../final/ZERO_MASTER_V1.png",
+  "spritesheet": "../final/spritesheet.webp",
+  "validation": "../final/validation.json",
+  "contactSheet": "contact-sheet.png",
+  "review": "review.json",
+  "previews": "previews",
+  "package": "../package/zero-v4",
+  "stateCount": 9,
+  "frameCount": 57,
+  "visualQa": {
+    "status": "pass",
+    "note": "Les 57 frames et les 9 GIF sont propres sur fond sombre, sans liseré cyan ni érosion des détails lime ou noirs."
+  },
+  "anatomy": {
+    "status": "pass",
+    "rule": "Exactement quatre membres dans chaque frame; toute patte levée remplace sa version posée au sol."
+  },
+  "repairs": [
+    "waving: suppression des pattes avant posées dupliquées dans les poses levées",
+    "running: suppression des fragments noirs détachés au sol",
+    "review: restauration de la queue et de l'orbe du côté canonique droit",
+    "all rows: décontamination des liserés cyan après extraction"
+  ],
+  "debugArtifactsKept": true,
+  "customExtras": {
+    "manifest": "../extras/extras-manifest.json",
+    "packageManifest": "../package/zero-v4/extras.json",
+    "clipCount": 4,
+    "frameCount": 24,
+    "visualQa": "pass"
+  }
+}

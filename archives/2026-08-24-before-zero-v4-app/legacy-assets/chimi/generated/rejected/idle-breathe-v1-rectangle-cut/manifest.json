@@ -1,0 +1,28 @@
+{
+  "id": "chimi-idle-breathe-v1",
+  "master": "CHIMI_MASTER_V1",
+  "canvas": [
+    96,
+    96
+  ],
+  "baselineY": 86,
+  "loop": true,
+  "durationsMs": [
+    700,
+    500,
+    500,
+    900
+  ],
+  "frames": [
+    "chimi-idle-breathe-v1-01.png",
+    "chimi-idle-breathe-v1-02.png",
+    "chimi-idle-breathe-v1-03.png",
+    "chimi-idle-breathe-v1-04.png"
+  ],
+  "motion": [
+    "neutral",
+    "inhale",
+    "hold",
+    "exhale-settle"
+  ]
+}

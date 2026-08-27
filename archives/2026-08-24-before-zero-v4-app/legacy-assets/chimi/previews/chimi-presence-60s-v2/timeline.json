@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "chimi-presence-60s-v2",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "durationMs": 60000,
+  "seed": 20260824,
+  "mode": "deterministic-coverage-audit",
+  "baseLayer": "chimi-idle-breathe-v2",
+  "events": [
+    {
+      "action": "standUp",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-stand-up-v2",
+      "startMs": 4039,
+      "endMs": 5859,
+      "durationMs": 1820,
+      "frameCount": 7
+    },
+    {
+      "action": "lookLeft",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-look-left-v1",
+      "startMs": 10340,
+      "endMs": 11530,
+      "durationMs": 1190,
+      "frameCount": 3
+    },
+    {
+      "action": "tailSway",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-tail-sway-v2",
+      "startMs": 16384,
+      "endMs": 17504,
+      "durationMs": 1120,
+      "frameCount": 5
+    },
+    {
+      "action": "thinking",
+      "kind": "semantic",
+      "source": "audit-trigger",
+      "clipId": "chimi-thinking-v2",
+      "startMs": 20000,
+      "endMs": 22060,
+      "durationMs": 2060,
+      "frameCount": 8,
+      "triggerMs": 20000,
+      "reactionLatencyMs": 0
+    },
+    {
+      "action": "earTwitch",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-ear-twitch-v1",
+      "startMs": 26254,
+      "endMs": 26604,
+      "durationMs": 350,
+      "frameCount": 3
+    },
+    {
+      "action": "blink",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-blink-v1",
+      "startMs": 31508,
+      "endMs": 31823,
+      "durationMs": 315,
+      "frameCount": 4
+    },
+    {
+      "action": "mouthOpen",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-mouth-open-v1",
+      "startMs": 36230,
+      "endMs": 37010,
+      "durationMs": 780,
+      "frameCount": 4
+    },
+    {
+      "action": "lookRight",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-look-right-v1",
+      "startMs": 40275,
+      "endMs": 41465,
+      "durationMs": 1190,
+      "frameCount": 3
+    },
+    {
+      "action": "happy",
+      "kind": "semantic",
+      "source": "audit-trigger",
+      "clipId": "chimi-happy-v1",
+      "startMs": 42000,
+      "endMs": 43220,
+      "durationMs": 1220,
+      "frameCount": 6,
+      "triggerMs": 42000,
+      "reactionLatencyMs": 0
+    },
+    {
+      "action": "specialIdleYawn",
+      "kind": "micro-action",
+      "source": "coverage-roll",
+      "clipId": "chimi-special-idle-yawn-v1",
+      "startMs": 45060,
+      "endMs": 47300,
+      "durationMs": 2240,
+      "frameCount": 8
+    },
+    {
+      "action": "lookLeft",
+      "kind": "micro-action",
+      "source": "weighted-roll",
+      "clipId": "chimi-look-left-v1",
+      "startMs": 55489,
+      "endMs": 56679,
+      "durationMs": 1190,
+      "frameCount": 3
+    }
+  ],
+  "decisions": [
+    {
+      "atMs": 4039,
+      "result": "standUp",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 90269,
+      "history": [
+        "standUp"
+      ]
+    },
+    {
+      "atMs": 10340,
+      "result": "lookLeft",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 18766,
+      "history": [
+        "standUp",
+        "lookLeft"
+      ]
+    },
+    {
+      "atMs": 16384,
+      "result": "tailSway",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 27041,
+      "history": [
+        "standUp",
+        "lookLeft",
+        "tailSway"
+      ]
+    },
+    {
+      "atMs": 21872,
+      "result": "semantic-reserved",
+      "untilMs": 22060
+    },
+    {
+      "atMs": 26254,
+      "result": "earTwitch",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 35609,
+      "history": [
+        "standUp",
+        "lookLeft",
+        "tailSway",
+        "earTwitch"
+      ]
+    },
+    {
+      "atMs": 31508,
+      "result": "blink",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 38406,
+      "history": [
+        "standUp",
+        "lookLeft",
+        "tailSway",
+        "earTwitch",
+        "blink"
+      ]
+    },
+    {
+      "atMs": 36230,
+      "result": "mouthOpen",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 52667,
+      "history": [
+        "standUp",
+        "lookLeft",
+        "tailSway",
+        "earTwitch",
+        "blink",
+        "mouthOpen"
+      ]
+    },
+    {
+      "atMs": 40275,
+      "result": "lookRight",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 53007,
+      "history": [
+        "lookLeft",
+        "tailSway",
+        "earTwitch",
+        "blink",
+        "mouthOpen",
+        "lookRight"
+      ]
+    },
+    {
+      "atMs": 45060,
+      "result": "specialIdleYawn",
+      "source": "coverage-roll",
+      "cooldownUntilMs": 138816,
+      "history": [
+        "tailSway",
+        "earTwitch",
+        "blink",
+        "mouthOpen",
+        "lookRight",
+        "specialIdleYawn"
+      ]
+    },
+    {
+      "atMs": 55489,
+      "result": "lookLeft",
+      "source": "weighted-roll",
+      "cooldownUntilMs": 64330,
+      "history": [
+        "earTwitch",
+        "blink",
+        "mouthOpen",
+        "lookRight",
+        "specialIdleYawn",
+        "lookLeft"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "manifestVersion": "2.0.0",
+  "characterVersion": "CHIMI_MASTER_V1",
+  "id": "chimi-animation-pack-v2",
+  "presencePack": "presence-pack-v2.json",
+  "semanticActions": {
+    "happy": {
+      "clip": "happy-v1/manifest.json",
+      "trigger": "body-tap"
+    },
+    "thinking": {
+      "clip": "thinking-v2/manifest.json",
+      "trigger": "thinking-state"
+    }
+  }
+}

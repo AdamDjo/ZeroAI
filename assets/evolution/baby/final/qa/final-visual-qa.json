@@ -1,0 +1,19 @@
+{
+  "visualQa": "pass",
+  "severity": "none",
+  "identity": "pass",
+  "anatomy": "pass",
+  "animations": "pass",
+  "extras": "pass",
+  "directions": "pass-with-waiver",
+  "clipping": "pass",
+  "unusedCells": "pass",
+  "notes": [
+    "Identité bébé cohérente sur les 15 rangées : tête très dominante, petit corps bas, visor noir, core lime, palette crème/noir/lime et orbe reliée à la queue.",
+    "Anatomie cohérente : exactement quatre membres anatomiques, avec occlusion naturelle ponctuelle d’une patte dans les poses accroupies ; aucune multiplication de membres dans les courses droite/gauche.",
+    "Les neuf rangées standard et les quatre extras sont lisibles et cohérentes ; sommeil, joie, réaction à la caresse et alimentation en données sont clairement distincts, avec effets visuellement attachés.",
+    "Les 16 regards forment une progression continue sans saut majeur ; les ambiguïtés déjà acceptées à 000° et 270° sont enregistrées comme waiver et ne motivent pas un rejet.",
+    "Aucun clipping ou chevauchement de cellule visible ; toutes les cellules inutilisées apparaissent entièrement vides."
+  ],
+  "requiredRepairs": []
+}

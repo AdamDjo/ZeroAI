@@ -1,0 +1,31 @@
+{
+  "_comment": "Palette officielle Chimi. Figée. Voir docs/vault/02-identite-visuelle/Palette-Officielle.md",
+  "_rule": "Aucune sixieme couleur. Les glows se font en variant l'alpha du lime.",
+  "colors": {
+    "cream": {
+      "hex": "#FFF7EA",
+      "rgb": [255, 247, 234],
+      "usage": "corps, ventre, museau"
+    },
+    "ink": {
+      "hex": "#1A1A1A",
+      "rgb": [26, 26, 26],
+      "usage": "oreilles, queue, yeux (contour), base du collier"
+    },
+    "lime": {
+      "hex": "#A6E22E",
+      "rgb": [166, 226, 46],
+      "usage": "orbe de queue, noyau du collier, iris, particules"
+    },
+    "coral": {
+      "hex": "#FFBC7A",
+      "rgb": [255, 188, 122],
+      "usage": "blush des joues"
+    },
+    "mist": {
+      "hex": "#EAF3E1",
+      "rgb": [234, 243, 225],
+      "usage": "ombre au sol, herbe, fonds doux"
+    }
+  }
+}

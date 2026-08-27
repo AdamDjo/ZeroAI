@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "input": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/decoded/sleeping.png",
+  "output": "/Users/adembenmessaoud/dev/ZeroAi/assets/evolution/baby/workbench/extras/normalized/sleeping.png",
+  "frameCount": 6,
+  "width": 1536,
+  "height": 208,
+  "errors": [],
+  "frames": [
+    {
+      "index": 0,
+      "nontransparentPixels": 19710,
+      "edgePixels": 0
+    },
+    {
+      "index": 1,
+      "nontransparentPixels": 19219,
+      "edgePixels": 0
+    },
+    {
+      "index": 2,
+      "nontransparentPixels": 18041,
+      "edgePixels": 0
+    },
+    {
+      "index": 3,
+      "nontransparentPixels": 17754,
+      "edgePixels": 0
+    },
+    {
+      "index": 4,
+      "nontransparentPixels": 18130,
+      "edgePixels": 0
+    },
+    {
+      "index": 5,
+      "nontransparentPixels": 19253,
+      "edgePixels": 0
+    }
+  ]
+}

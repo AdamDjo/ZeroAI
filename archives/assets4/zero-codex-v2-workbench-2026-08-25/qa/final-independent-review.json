@@ -1,0 +1,8 @@
+{
+  "verdict": "pass",
+  "identity": "chat Zéro cohérent : écran noir, yeux lime, cœur et queue-orbe",
+  "paws": "quatre membres ; aucun membre surnuméraire visible",
+  "directions": "9 animations et 16 regards ; cardinales et quadrants conformes",
+  "continuity": "trous transparents naturels ; transition 157.5°→180° visible mais acceptable",
+  "reason": "validation officielle et trois blind tests réussis ; aucun clipping ni frange cyan manifeste"
+}
