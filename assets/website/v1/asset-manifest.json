@@ -38,6 +38,15 @@
       "sha256": "66577861691130cfa00f8c154ecb916292f6a7054c8e3e7c76e16e2328ad7e57"
     },
     {
+      "id": "zero-hero-scene-v2",
+      "file": "illustrations/zero-hero-scene-v2.webp",
+      "role": "runtime-hero-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8e4811a7970fd64068108e9903c58274a8018c508c476faa5b5e76c5a8c7c0a"
+    },
+    {
       "id": "zero-streetwear",
       "file": "illustrations/zero-streetwear.webp",
       "role": "runtime-customization-illustration",
@@ -54,6 +63,15 @@
       "width": 1692,
       "height": 930,
       "sha256": "1fc1296d2b38eb2f77b2fda246311e044b3df3fd487b0640b973af85d603167c"
+    },
+    {
+      "id": "zero-footer-scene-v2",
+      "file": "illustrations/zero-footer-scene-v2.webp",
+      "role": "runtime-footer-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1900,
+      "height": 828,
+      "sha256": "73affc3fe585a7a220c3be4beef5543cc5778d8cd54e4a155ad2c7742c3fbd22"
     },
     {
       "id": "zero-baby-idle",

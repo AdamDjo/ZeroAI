@@ -8,7 +8,8 @@ Package versionné des références et assets consommés par la landing.
 - `zero-master-v1.png` : copie inchangée de `assets/v4/final/ZERO_MASTER_V1.png` ;
 - `zero-master-v1.webp` : dérivé transparent optimisé consommé par la landing ;
 - `illustrations/` : compositions WebP transparentes générées depuis le master canonique
-  et la maquette (héros, streetwear et CTA) ;
+  et la maquette (héros, streetwear et CTA), dont les scènes horizontales v2 du héros
+  et du footer conçues pour recevoir les calques animés React ;
 - `animations/` : copies versionnées des GIFs validés du package bébé final ;
 - `asset-manifest.json` : rôles, dimensions, provenance et empreintes SHA-256 ;
 - `qa/asset-validation.json` : validation minimale du package.

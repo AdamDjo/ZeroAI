@@ -1,8 +1,8 @@
-import { Heart } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { ZERO_HERO_ISLAND_URL } from '@/assets/zero-assets';
+import { ZERO_HERO_SCENE_V2_URL } from '@/assets/zero-assets';
 import { HERO_PROMISES } from '@/data/landing-content';
 import { PhoneMockup } from './PhoneMockup';
+import { HeroDecorations } from './ui/HeroDecorations';
 import { PixelIcon } from './ui/PixelIcon';
 import { StoreBadge } from './ui/StoreBadge';
 
@@ -65,29 +65,33 @@ export function Hero({ onAdoptClick, onDemoClick }: HeroProps) {
         <div className="mt-6">
           <p className="mb-2 text-xs font-semibold text-muted">Bientôt disponible sur</p>
           <div className="flex flex-wrap gap-2" aria-label="Plateformes prévues">
-            <StoreBadge platform="apple" />
-            <StoreBadge platform="google" />
+            <StoreBadge onClick={onAdoptClick} platform="apple" />
+            <StoreBadge onClick={onAdoptClick} platform="google" />
           </div>
         </div>
       </div>
 
       <div className="hero-visual" aria-label="Aperçu de Zéro et de son application">
-        <div className="zero-stage">
-          <div className="speech-bubble speech-bubble-animated" key={questionIndex}>
-            {questions[questionIndex]}
-          </div>
-          <img
-            alt="Zéro assis sur son petit îlot végétal"
-            className="hero-zero-art"
-            decoding="async"
-            fetchPriority="high"
-            src={ZERO_HERO_ISLAND_URL}
-          />
-          <span className="heart-bubble" aria-hidden="true"><Heart fill="currentColor" size={20} /></span>
+        <img
+          alt="Zéro sur son îlot, entouré d'un petit jardin pixel-art"
+          className="hero-scene-art pixel-crisp"
+          decoding="async"
+          fetchPriority="high"
+          src={ZERO_HERO_SCENE_V2_URL}
+        />
+        <div className="hero-question speech-bubble speech-bubble-animated" key={questionIndex}>
+          {questions[questionIndex]}
         </div>
+        <HeroDecorations />
 
         <PhoneMockup className="hero-phone" variant="hero" />
-        <p className="hero-note">Un lien unique à créer ensemble</p>
+        <div className="hero-note">
+          <p>Un lien unique<br />à créer ensemble</p>
+          <svg aria-hidden="true" viewBox="0 0 64 62">
+            <path d="M51 3c2 25-9 40-34 45" />
+            <path d="m24 40-9 8 11 5" />
+          </svg>
+        </div>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import { ZERO_PEEKING_CTA_URL } from '@/assets/zero-assets';
+import { ZERO_FOOTER_SCENE_V2_URL } from '@/assets/zero-assets';
 import { PixelIcon } from './ui/PixelIcon';
 
 interface FinalCTAProps {
@@ -21,16 +21,14 @@ export function FinalCTA({ onAdoptClick }: FinalCTAProps) {
             <strong>Scanne-moi&nbsp;!</strong>
           </div>
         </div>
-        <div className="final-cta-character">
-          <div className="speech-bubble">J'ai hâte de te rencontrer&nbsp;!</div>
-          <img
-            alt="Zéro qui dépasse joyeusement du bandeau"
-            className="final-cta-zero-art"
-            decoding="async"
-            loading="lazy"
-            src={ZERO_PEEKING_CTA_URL}
-          />
-        </div>
+        <img
+          alt="Zéro qui dépasse joyeusement d'un jardin pixel-art"
+          className="final-cta-scene pixel-crisp"
+          decoding="async"
+          loading="lazy"
+          src={ZERO_FOOTER_SCENE_V2_URL}
+        />
+        <div className="final-cta-bubble speech-bubble">J'ai hâte<br />de te rencontrer&nbsp;!</div>
       </div>
     </section>
   );
