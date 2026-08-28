@@ -43,11 +43,12 @@ button:disabled { cursor: default; }
 .scroll-anchor { position: absolute; inset: 0 auto auto 0; }
 .brand-mark { display: inline-flex; color: var(--color-ink); text-decoration: none; }
 .brand-lockup { display: inline-grid; gap: 0.12rem; line-height: 1; }
-.brand-logo-svg { display: block; width: 8.15rem; height: auto; overflow: visible; fill: var(--color-ink); }
-.brand-logo-crown { fill: var(--color-brand-strong); }
-.brand-logo-face { fill: #c7f23a; }
+.brand-wordmark { display: flex; align-items: flex-end; gap: 0.18rem; }
+.brand-logo-svg { display: block; width: 6.1rem; height: auto; flex: 0 0 auto; fill: var(--color-ink); }
+.brand-logo-head { width: 2.05rem; height: 2.05rem; flex: 0 0 auto; object-fit: contain; transform: translateY(0.08rem); }
 .brand-logo-tagline { color: #43484c; font-size: 0.64rem; font-weight: 650; letter-spacing: -0.015em; }
-.brand-lockup-compact .brand-logo-svg { width: 5.15rem; }
+.brand-lockup-compact .brand-logo-svg { width: 3.85rem; }
+.brand-lockup-compact .brand-logo-head { width: 1.33rem; height: 1.33rem; }
 
 header { transition: border-color 180ms ease, box-shadow 180ms ease; }
 .nav-link, .mobile-nav-link { color: #24292d; font-size: 0.77rem; font-weight: 650; text-decoration: none; transition: color 160ms ease; }

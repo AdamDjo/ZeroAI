@@ -11,6 +11,7 @@ Package versionné des références et assets consommés par la landing.
   et la maquette (héros, streetwear et CTA), dont la scène horizontale v2 du héros et
   la scène v3 du footer conçues pour recevoir les calques animés React ;
 - `avatars/` : portraits WebP optimisés des témoignages de la landing ;
+- `brand/` : déclinaisons raster transparentes du master canonique pour le logo ;
 - `animations/` : copies versionnées des GIFs validés du package bébé final ;
 - `asset-manifest.json` : rôles, dimensions, provenance et empreintes SHA-256 ;
 - `qa/asset-validation.json` : validation minimale du package.

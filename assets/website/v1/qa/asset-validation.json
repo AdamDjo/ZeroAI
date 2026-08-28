@@ -9,6 +9,7 @@
     "heroAndFooterScenesV2HaveTransparency": true,
     "footerSceneV3HasTransparency": true,
     "testimonialAvatarsAreOptimizedWebp": true,
+    "brandHeadLogoHasTransparency": true,
     "runtimeAnimationsCopiedFromFinalBabyPackage": true,
     "transparentMaster": true,
     "manifestHashesMatch": true
