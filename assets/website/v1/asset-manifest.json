@@ -74,6 +74,51 @@
       "sha256": "73affc3fe585a7a220c3be4beef5543cc5778d8cd54e4a155ad2c7742c3fbd22"
     },
     {
+      "id": "zero-footer-scene-v3",
+      "file": "illustrations/zero-footer-scene-v3.webp",
+      "role": "runtime-footer-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 2055,
+      "height": 765,
+      "sha256": "dda21dd6aa646635b169e2cea00cd84d097146108f24aa9f1142347d61218661"
+    },
+    {
+      "id": "testimonial-avatar-emma-v1",
+      "file": "avatars/emma-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "0e9699bde7a9dab034c62c5376ed86f4c712ee24260a9c3c94ace317c0b584bc"
+    },
+    {
+      "id": "testimonial-avatar-lucas-v1",
+      "file": "avatars/lucas-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "9a1ad6c0513ff24d34e17b763b57474cbb041e5e737ec93f884bf27f38467e40"
+    },
+    {
+      "id": "testimonial-avatar-chloe-v1",
+      "file": "avatars/chloe-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "30e012456666823d657b5d2b40bf677209cee8ea540c79e7516c5808d0632ab9"
+    },
+    {
+      "id": "testimonial-avatar-maxime-v1",
+      "file": "avatars/maxime-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "e27c6bfc3babf0a2d530a8062265bf1efb1c5f4b6abe6f7af3b2ac3dea1e55da"
+    },
+    {
       "id": "zero-baby-idle",
       "file": "animations/zero-baby-idle.gif",
       "role": "runtime-phone-animation",

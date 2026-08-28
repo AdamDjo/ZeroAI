@@ -1,4 +1,10 @@
 import type { PixelIconName } from '@/components/ui/PixelIcon';
+import {
+  CHLOE_AVATAR_URL,
+  EMMA_AVATAR_URL,
+  LUCAS_AVATAR_URL,
+  MAXIME_AVATAR_URL,
+} from '@/assets/zero-assets';
 
 export interface NavigationItem {
   href: `#${string}`;
@@ -12,6 +18,7 @@ export interface FeatureItem {
 }
 
 export interface TestimonialItem {
+  avatarUrl: string;
   name: string;
   quote: string;
 }
@@ -84,18 +91,22 @@ export const CUSTOMIZATION_ITEMS: readonly FeatureItem[] = [
 
 export const TESTIMONIALS: readonly TestimonialItem[] = [
   {
+    avatarUrl: EMMA_AVATAR_URL,
     name: 'Emma',
     quote: 'Zéro se souvient même des petits détails que je lui ai racontés.',
   },
   {
+    avatarUrl: LUCAS_AVATAR_URL,
     name: 'Lucas',
     quote: "Chaque jour, j'ai hâte de le voir. Il a vraiment sa propre personnalité.",
   },
   {
+    avatarUrl: CHLOE_AVATAR_URL,
     name: 'Chloé',
     quote: "L'app est pleine de petites attentions qui rendent l'expérience magique.",
   },
   {
+    avatarUrl: MAXIME_AVATAR_URL,
     name: 'Maxime',
     quote: "Je vois Zéro grandir avec moi, et c'est ce qui le rend vraiment unique.",
   },
