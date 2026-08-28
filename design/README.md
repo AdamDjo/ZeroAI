@@ -1,6 +1,7 @@
 # Références actives
 
-La maquette active est `mockups/zero-landing-reference.png`.
+La maquette source est `mockups/zero-landing-reference.png`. Sa copie versionnée pour la
+landing est `../assets/website/v1/zero-landing-reference.png`.
 
 L’identité du personnage ne doit pas être redessinée depuis la maquette. Utiliser directement :
 

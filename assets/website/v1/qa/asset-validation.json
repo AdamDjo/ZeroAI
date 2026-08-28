@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "package": "zero-website-v1",
+  "validatedAt": "2026-08-28",
+  "checks": {
+    "landingReferencePresent": true,
+    "canonicalMasterCopiedWithoutModification": true,
+    "generatedIllustrationsHaveTransparency": true,
+    "heroAndFooterScenesV2HaveTransparency": true,
+    "footerSceneV3HasTransparency": true,
+    "testimonialAvatarsAreOptimizedWebp": true,
+    "brandHeadLogoHasTransparency": true,
+    "runtimeAnimationsCopiedFromFinalBabyPackage": true,
+    "transparentMaster": true,
+    "manifestHashesMatch": true
+  }
+}

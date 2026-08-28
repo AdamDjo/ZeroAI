@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "package": "zero-website-v1",
+  "assets": [
+    {
+      "id": "zero-landing-reference",
+      "file": "zero-landing-reference.png",
+      "role": "design-reference",
+      "width": 941,
+      "height": 1672,
+      "sha256": "dc2ae01b440c49b06d4eb6e51033a2a808696e96f415d10cb3f5333f519716e5"
+    },
+    {
+      "id": "zero-master-v1",
+      "file": "zero-master-v1.png",
+      "role": "runtime-character",
+      "source": "../../v4/final/ZERO_MASTER_V1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "17d5ef5da52169079d09a01f25160fb7eb3297b2aacfccbe835426fc6d39be5a"
+    },
+    {
+      "id": "zero-master-v1-web",
+      "file": "zero-master-v1.webp",
+      "role": "runtime-character",
+      "source": "zero-master-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "18f22433e0259d2e5663cd90e4b18844a4fe6f2ffcba37dc38df8357bc0c5c71"
+    },
+    {
+      "id": "zero-hero-island",
+      "file": "illustrations/zero-hero-island.webp",
+      "role": "runtime-hero-illustration",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1303,
+      "height": 1207,
+      "sha256": "66577861691130cfa00f8c154ecb916292f6a7054c8e3e7c76e16e2328ad7e57"
+    },
+    {
+      "id": "zero-hero-scene-v2",
+      "file": "illustrations/zero-hero-scene-v2.webp",
+      "role": "runtime-hero-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8e4811a7970fd64068108e9903c58274a8018c508c476faa5b5e76c5a8c7c0a"
+    },
+    {
+      "id": "zero-streetwear",
+      "file": "illustrations/zero-streetwear.webp",
+      "role": "runtime-customization-illustration",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1217,
+      "height": 1292,
+      "sha256": "7356bfad00a617f71d0c920e182a82004488537d73cadf5a6a9757a839a42a5b"
+    },
+    {
+      "id": "zero-peeking-cta",
+      "file": "illustrations/zero-peeking-cta.webp",
+      "role": "runtime-closing-illustration",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1692,
+      "height": 930,
+      "sha256": "1fc1296d2b38eb2f77b2fda246311e044b3df3fd487b0640b973af85d603167c"
+    },
+    {
+      "id": "zero-footer-scene-v2",
+      "file": "illustrations/zero-footer-scene-v2.webp",
+      "role": "runtime-footer-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 1900,
+      "height": 828,
+      "sha256": "73affc3fe585a7a220c3be4beef5543cc5778d8cd54e4a155ad2c7742c3fbd22"
+    },
+    {
+      "id": "zero-footer-scene-v3",
+      "file": "illustrations/zero-footer-scene-v3.webp",
+      "role": "runtime-footer-scene",
+      "source": "imagegen:canonical-master-and-landing-reference",
+      "width": 2055,
+      "height": 765,
+      "sha256": "dda21dd6aa646635b169e2cea00cd84d097146108f24aa9f1142347d61218661"
+    },
+    {
+      "id": "testimonial-avatar-emma-v1",
+      "file": "avatars/emma-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "0e9699bde7a9dab034c62c5376ed86f4c712ee24260a9c3c94ace317c0b584bc"
+    },
+    {
+      "id": "testimonial-avatar-lucas-v1",
+      "file": "avatars/lucas-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "9a1ad6c0513ff24d34e17b763b57474cbb041e5e737ec93f884bf27f38467e40"
+    },
+    {
+      "id": "testimonial-avatar-chloe-v1",
+      "file": "avatars/chloe-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "30e012456666823d657b5d2b40bf677209cee8ea540c79e7516c5808d0632ab9"
+    },
+    {
+      "id": "testimonial-avatar-maxime-v1",
+      "file": "avatars/maxime-v1.webp",
+      "role": "runtime-testimonial-avatar",
+      "source": "imagegen:landing-testimonial-portrait",
+      "width": 160,
+      "height": 160,
+      "sha256": "e27c6bfc3babf0a2d530a8062265bf1efb1c5f4b6abe6f7af3b2ac3dea1e55da"
+    },
+    {
+      "id": "zero-head-logo-v1",
+      "file": "brand/zero-head-logo-v1.webp",
+      "role": "runtime-brand-mark",
+      "source": "imagegen:canonical-master-head-cutout",
+      "width": 256,
+      "height": 256,
+      "sha256": "df3102db83796f388b58fedf62da1af7a97e988e93e5e9a092da857a2e648c25"
+    },
+    {
+      "id": "zero-baby-idle",
+      "file": "animations/zero-baby-idle.gif",
+      "role": "runtime-phone-animation",
+      "source": "../../evolution/baby/final/qa/previews/idle.gif",
+      "width": 192,
+      "height": 208,
+      "sha256": "cf062dd4e2cfebedb1adbc2b652d86612e4d8b3a7500b264bffb2c137bc3bcf4"
+    },
+    {
+      "id": "zero-baby-happy",
+      "file": "animations/zero-baby-happy.gif",
+      "role": "runtime-phone-animation",
+      "source": "../../evolution/baby/final/qa/previews/happy.gif",
+      "width": 192,
+      "height": 208,
+      "sha256": "aef90e9e95bd40d39c7cf6af19454c2901a5e68262ae06cd594fcc3bd8e48b85"
+    },
+    {
+      "id": "zero-baby-petting",
+      "file": "animations/zero-baby-petting.gif",
+      "role": "runtime-phone-animation",
+      "source": "../../evolution/baby/final/qa/previews/petting-reaction.gif",
+      "width": 192,
+      "height": 208,
+      "sha256": "e9444ae386987ac8653f80d7aaa542ca61c74546ba15c3ac4f4dd912fbb515b5"
+    },
+    {
+      "id": "zero-baby-waving",
+      "file": "animations/zero-baby-waving.gif",
+      "role": "versioned-animation",
+      "source": "../../evolution/baby/final/qa/previews/waving.gif",
+      "width": 192,
+      "height": 208,
+      "sha256": "56b0453080c6f8fc1d444fc60e793549d86980a8faa7674488002e8340b39e1f"
+    }
+  ]
+}

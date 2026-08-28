@@ -1,0 +1,25 @@
+import zeroMasterUrl from '../../../../../assets/website/v1/zero-master-v1.webp?url';
+import zeroBabyHappyUrl from '../../../../../assets/website/v1/animations/zero-baby-happy.gif?url';
+import zeroBabyIdleUrl from '../../../../../assets/website/v1/animations/zero-baby-idle.gif?url';
+import zeroBabyPettingUrl from '../../../../../assets/website/v1/animations/zero-baby-petting.gif?url';
+import chloeAvatarUrl from '../../../../../assets/website/v1/avatars/chloe-v1.webp?url';
+import emmaAvatarUrl from '../../../../../assets/website/v1/avatars/emma-v1.webp?url';
+import lucasAvatarUrl from '../../../../../assets/website/v1/avatars/lucas-v1.webp?url';
+import maximeAvatarUrl from '../../../../../assets/website/v1/avatars/maxime-v1.webp?url';
+import zeroHeadLogoUrl from '../../../../../assets/website/v1/brand/zero-head-logo-v1.webp?url';
+import zeroHeroSceneV2Url from '../../../../../assets/website/v1/illustrations/zero-hero-scene-v2.webp?url';
+import zeroFooterSceneV3Url from '../../../../../assets/website/v1/illustrations/zero-footer-scene-v3.webp?url';
+import zeroStreetwearUrl from '../../../../../assets/website/v1/illustrations/zero-streetwear.webp?url';
+
+export const CHLOE_AVATAR_URL = chloeAvatarUrl;
+export const EMMA_AVATAR_URL = emmaAvatarUrl;
+export const LUCAS_AVATAR_URL = lucasAvatarUrl;
+export const MAXIME_AVATAR_URL = maximeAvatarUrl;
+export const ZERO_HEAD_LOGO_URL = zeroHeadLogoUrl;
+export const ZERO_MASTER_URL = zeroMasterUrl;
+export const ZERO_BABY_HAPPY_URL = zeroBabyHappyUrl;
+export const ZERO_BABY_IDLE_URL = zeroBabyIdleUrl;
+export const ZERO_BABY_PETTING_URL = zeroBabyPettingUrl;
+export const ZERO_HERO_SCENE_V2_URL = zeroHeroSceneV2Url;
+export const ZERO_FOOTER_SCENE_V3_URL = zeroFooterSceneV3Url;
+export const ZERO_STREETWEAR_URL = zeroStreetwearUrl;
